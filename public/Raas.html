@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Departamentos.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>     -->
+
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Clima">
+    <link rel="apple-touch-icon" href="../public/images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una simple pagina web de turismo">
+    <meta name="theme-color" content="#000" />
+    <title>Racs</title>
+</head>
+
+<body>
+    <section class="ContenedorPrincipal">
+        <section class="contenedor1">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Hoteles.html">Hoteles</a></li>
+                    <li><a href="Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Aventuras.html">Aventuras</a></li>
+                </ul>
+            </nav>
+            <div class="redes">
+                <a href=""><img src="img/fb.png" alt="" /></a>
+                <a href=""><img src="img/ig.png" alt="" /></a>
+                <a href=""><img src="img/gg.png" alt="" /></a>
+            </div>
+
+            <div class="historia">
+                <h1>Historia de RACS</h1>
+                <p>
+                    La Región Autónoma Caribe Sur (RACCS) se ubica al sureste de Nicaragua cubre el 21.1% del territorio nacional siendo sus municipios: Bluefields, Corn Island, Kukra hill, El Ayote, Nueva Guinea, Laguna de Perlas, La Cruz del Río Grande, Rama, Muelle de
+                    los Bueyes, Bocana de Paiwas, El Tortuguero y la Desembocadura de Río Grande. La RACCS es lluviosa de temperatura uniforme. Su población pluricultural y multilingüe, es descendiente de pueblos indígenas, inmigrantes afroacaribeños
+                    constituyéndola principalmente Mestizos, Creoles, Miskitus, Uwas, Garífunas y Ramas.
+            </div>
+        </section>
+
+        <section class="contenedor2">
+            <h2>Lugares para visitar en RACS</h2>
+            <div class="tarjetas">
+                <img src="img/bluefields 0.jpg" alt="Imagen de leon" />
+                <p>Bluefields.</p>
+                <button class="leerMas" type="button" data-toggle="modal" data-target="#myModal">
+            Leer mas.
+          </button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Bluefields.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/bluefields 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/bluefields 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/bluefields 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Bluefilds.?</h4>
+                                    <p>
+                                        Es una Ciudad turística y cultural a 320 kilómetros de la capital Managua, es puerta de salida a otros destinos de la Costa Caribe Nicaragüense, compuesta por seis etnias: creoles, garífunas, misquitus, ulwas, ramas y mestizos que ofrecen sus propias
+                                        culturas. Sus orígenes se remontan a la invasión en la costa Caribe de piratas europeos, que utilizaban el Río Escondido para descansar, reparar averías y avituallarse. Los soldados de fortuna toman la bahía de
+                                        Bluefields como centro táctico de operaciones bélicas, el nombre de la ciudad se deriva del visitante holandés Blauveldt o Bleeveldt en el año de 1602. La presencia de negros africanos data desde el año 1641, producto
+                                        de un naufragio ocurrido en los Cayos Miskitus de una barco portugués que trasladaba esclavos.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/bluff beach 0.jpg" alt="Imagen de leon" />
+                <p>Bluff Beach.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Bluff Beach.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/bluff beach 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/bluff beach 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/bluff beach 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Bluff Beach?</h4>
+                                    <p>
+                                        El puerto de Bluff está ubicado a 11KM de Bluefields es una ciudad portuaria en la Costa Caribe de Nicaragua, cuenta con una playa ubicado a 10 o 20 minutos caminando o se puede tomar una caponera del puerto del Bluff. Esta playa presenta características
+                                        similares a las playas del Pacifico su arena es café y tiene un oleaje más fuerte que la mayoría cuenta con 18 ranchos que ofrecen servicios de alimentos y bebidas durante la semana mayor pero hay dos ranchos permanentes.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/corn island 0.jpg" alt="Imagen de leon" />
+                <p>Corn Island.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Corn Island.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/corn island 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/corn island 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/corn island 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Corn Island?</h4>
+                                    <p>
+                                        Es un archipiélago conformado por dos Islas, Great Corn Island y Little Corn Island y constituyen unas de las mayores bellezas naturales de nuestro país, ubicada a 70 kilómetros de la costa y frente al puerto de Bluefields. Corn Island fue habitado desde
+                                        los años 400 por la etnia kukra, pobladores de la cuenca de Laguna de Perlas. A mediados del siglo XVII la etnias Kukras fueron esclavizados hasta su extinción por la etnia Miskita con sus aliados los piratas ingleses.
+                                        La mayoría de la población es creole por lo tanto predomina el ingles criollo; la economía de estas islas se basa en la pesca artesanal o industrial de mariscos y el procesamiento y exportación de los mismos y el
+                                        turismo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/great corn 0.jpg" alt="Imagen de leon" />
+                <p>Great Corn Island.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal5">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal5" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Great Corn Island.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/great corn 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/great corn 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/great corn 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Great Corn Island.?</h4>
+                                    <p>
+                                        Se encuentra rodeada por arrecifes de coral con gran variedad de peces y playas de arena blanca, aguas color turquesa, es el resultado de erupciones volcánicas de la era terciaria , posee una diversidad de ecosistemas marinos y costeros, cuenta con extensas
+                                        playas de arena blanca y de aguas cristalinas y dos grandes bancos de arrecifes llamados Seal Cay ubicado entre las dos islas y Blowing Rock ubicado al sur de la isla grande, estos dos bancos son aprovechados para
+                                        la pesca y buceos, su exuberancia esta engarzada como una belleza única en el mar caribe de Nicaragua. Su celebración principal es la emancipación de la esclavitud conocido por muchos como “Sopa de Cangrejo” cuyo
+                                        nutritivo alimento es elaborado a base de coco, fruta de pan, quequisque, yuca y cangrejo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/little corn island 0.jpg" alt="Imagen de leon" />
+                <p>Little Corn Island.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal6">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal6" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Little Corn Island.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/little corn island 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/little corn island 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/little corn island 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Little Corn Island?</h4>
+                                    <p>
+                                        Pequeña isla localizada a 15 kilómetros al noroeste de la Isla Grande del Maíz. Este es un lugar ideal para relajarse y descansar disfrutando de las bellezas naturales y exóticas que ofrece la isla al estar alejado del ruido de las grandes ciudades.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/laguna de perlas 0.jpg" alt="Imagen de leon" />
+                <p>Laguna de Perlas.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal7">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal7" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Laguna de Perlas.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/laguna de perlas 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/laguna de perlas 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/laguna de perlas 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Laguna de Perlas?</h4>
+                                    <p>Localizada a 40 kilómetros al norte de Bluefields y considerada la segunda ciudad capital del reino de la Reserva de la Mosquita durante la colonia, fue aquí donde se retiró el último rey mosco en 1894. Actualmente
+                                        habitada por 4 grupos étnicos generalmente uno en cada comunidad siendo: Mestizos, Criollos, Miskitus y Garífunas, Es una comunidad muy pintoresca y sus habitantes se caracterizan por ser muy cordiales, aquí se
+                                        pueden hacer caminatas, observación de aves, pescar o simplemente recorrer la zona en bote pues a lo largo de la ribera hay otros poblados dignos de explorar para conocer mas sobre las culturas étnicas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/orinoco 0.jpg" alt="Imagen de leon" />
+                <p>Orinoco.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal9">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal9" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Orinoco.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/orinoco 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/orinoco 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/orinoco 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Orinoco?</h4>
+                                    <p>
+                                        Ubicada en la Cuenca de Laguna de Perlas poblado por etnias Garífunas, cultura híbrida de tradiciones arahuacos, africanas, y europeas. Comunidad de Orinoco: garífuna, pueblo lleno de cultura conformada de tradiciones arahuacos, africanas y europeas,
+                                        las que representan en sus danzas de punta y wanaragua, sus tambores sagrados, las fábulas Anancy, culto al antepasado, comidas de banano, creencias y prácticas respecto de sus ancestros. Su creencia tradicional
+                                        para sanación de los enfermos es el walagallo (dugu, shugu), como una medicina tradicional para apoyar a los enfermos desahuciados.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/north end 0.jpg" alt="Imagen de leon" />
+                <p>Playa North End.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal11">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal11" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Playa North End.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators11" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators11" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators11" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators11" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/north end 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/north end 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/north end 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators11" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators11" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Playa North End?</h4>
+                                    <p>
+                                        Playa de arenas blancas, apto para snorkeling y buceo. Ubicada en la parte norte de la isla.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="contenedor3">
+            <h2>Tal vez esto tambien te interese:</h2>
+            <div class="Descubre1">
+                <div>
+                    <a href="">
+                        <img src="img/hotel1.png" alt="Icono de un hotel" class="img1" /></a>
+                    <p>Hoteles</p>
+                </div>
+
+                <div class="">
+                    <a href="">
+                        <img src="img/restaurantes1.png" alt="Icono de un restaurante" class="img2" /></a>
+                    <p class="texto-restaurante">Restaurantes</p>
+                </div>
+
+                <div class="correr">
+                    <a href=""><img src="img/Actividades1.png" alt="Icono de lugares" class="img3" /></a>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrigth &copy; 2020 by Team Awesome</p>
+        </footer>
+    </section>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

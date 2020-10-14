@@ -1,0 +1,935 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.ContenedorPrincipal {
+    width: 1262px;
+    height: auto;
+    border: 0px solid red;
+}
+
+.contenedor1 {
+    margin-top: -12px;
+    width: 1262px;
+    height: 610px;
+    border: 0px solid black;
+}
+
+.contenedor1 nav {
+    width: 720px;
+    height: 30px;
+    border: 0px solid black;
+    padding-top: 30px;
+    margin-left: 509px;
+    padding-left: 90px;
+}
+
+.contenedor1 li {
+    width: 100px;
+    height: 30px;
+    border: 0px solid black;
+    float: left;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 25px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.contenedor1 li:hover {
+    transform: scale(1.1);
+}
+
+.contenedor1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor1 a:hover {
+    color: #5F5E5E;
+    text-decoration: none;
+}
+
+.redes {
+    width: 57px;
+    height: 280px;
+    margin-left: 1200px;
+    border: 0px solid black;
+}
+
+.redes img {
+    width: 60px;
+    height: 60px;
+    border: 0px solid black;
+    margin-top: 20px;
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+}
+
+.redes img:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.historia {
+    width: 550px;
+    height: 340px;
+    margin-left: 636px;
+    margin-top: -520px;
+    border: 0px solid black;
+}
+
+.historia h1 {
+    width: 100%;
+    text-decoration: underline;
+    height: 60px;
+    border: 0px solid black;
+    text-align: center;
+    font-size: 43px;
+    color: white;
+}
+
+.historia p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 88%;
+    height: 270px;
+    border: 0px solid black;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    height: auto;
+}
+
+.contenedor2 h2 {
+    width: 100%;
+    text-decoration: underline;
+    height: 60px;
+    text-align: center;
+    font-size: 43px;
+    color: #00BCFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tarjetas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tarjetas img {
+    width: 290px;
+    height: 317px;
+    border-radius: 8px;
+    box-shadow: -7px 4px 13px -4px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+}
+
+.tarjetas p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.leerMas {
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    color: white;
+    background-color: #D6B12E;
+    font-size: 15px;
+    border-radius: 28px;
+    box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.45);
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-left: 70px;
+    transition: 500ms ease-in-out;
+    outline: 0 !important;
+    color: white;
+}
+
+.leerMas:hover {
+    transform: scale(1.03);
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 35px;
+    color: #00BCFF;
+    margin-left: 120px;
+}
+
+.texto-modal h4 {
+    width: 100%;
+    text-align: center;
+    border: 0px solid black;
+    color: #D6B12E;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.texto-modal p {
+    width: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-fill-color: black;
+    font-size: 14px;
+}
+
+.btn-close {
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+}
+
+.btn-close:hover {
+    background-color: rgb(214, 114, 114);
+    color: white;
+}
+
+.Descubre1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor3 {
+    width: 1262px;
+    height: auto;
+    margin-top: 20px;
+    border: 0px solid black;
+}
+
+.contenedor3 h2 {
+    text-align: center;
+    color: #00BCFF;
+    font-size: 39px;
+}
+
+.Descubre1 img {
+    width: 110px;
+    height: 130px;
+}
+
+.restaurante p {
+    padding-left: 60px;
+}
+
+.Descubre1 p {
+    width: 110px;
+    height: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    border: 0px solid black;
+    width: 1263px;
+    height: 70px;
+    background-color: #FFEDB6;
+}
+
+footer p {
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    -webkit-text-fill-color: #696A6A;
+    -webkit-text-stroke: 1.2px #696A6A;
+    padding-top: 25px;
+}
+
+
+/* Responsiveeeeeeeeeeeeee */
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+    .ContenedorPrincipal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: 690px;
+        border: 0px solid black;
+        background-image: url(../img/prueba.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contenedor1 a {
+        text-decoration: none;
+        color: #5F5E5E;
+        color: white;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        border: 0px solid black;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor1 li {
+        width: 82px;
+        height: 30px;
+        border: 0px solid black;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        margin-left: -7px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 57px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 20px;
+    }
+    .historia {
+        width: 100%;
+        height: 540px;
+        margin-left: 0px;
+        margin-top: -183px;
+    }
+    .historia h1 {
+        width: 233px;
+        text-decoration: underline;
+        height: auto;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-left: 32px;
+    }
+    .historia p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        height: 483px;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .contenedor2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor2 h2 {
+        width: 100%;
+        text-decoration: underline;
+        height: 60px;
+        text-align: center;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-top: 15px;
+        margin-bottom: 38px;
+    }
+    .contenedor3 {
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+        ;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeee */
+
+@media only screen and (min-width: 414px) and (max-width: 453px) {
+    .ContenedorPrincipal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: 690px;
+        border: 0px solid black;
+        background-image: url(../img/prueba.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contenedor1 a {
+        text-decoration: none;
+        color: #5F5E5E;
+        color: white;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        border: 0px solid black;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor1 li {
+        width: 82px;
+        height: 30px;
+        border: 0px solid black;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        margin-left: -7px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 57px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 20px;
+    }
+    .historia {
+        width: 100%;
+        height: 540px;
+        margin-left: 0px;
+        margin-top: -183px;
+    }
+    .historia h1 {
+        width: 233px;
+        text-decoration: underline;
+        height: auto;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-left: 50px;
+    }
+    .historia p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        height: 483px;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .contenedor2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor2 h2 {
+        width: 80%;
+        text-decoration: underline;
+        height: 60px;
+        text-align: center;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-top: 15px;
+        margin-bottom: 38px;
+    }
+    .contenedor3 {
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+        ;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeee */
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    .ContenedorPrincipal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: 690px;
+        border: 0px solid black;
+        background-image: url(../img/prueba.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contenedor1 a {
+        text-decoration: none;
+        color: #5F5E5E;
+        color: white;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        border: 0px solid black;
+        padding-top: 30px;
+        margin-left: -13px;
+        padding-left: 0px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor1 li {
+        width: 79px;
+        height: 30px;
+        border: 0px solid black;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        margin-left: -7px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 57px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 20px;
+    }
+    .historia {
+        width: 100%;
+        height: 540px;
+        margin-left: 0px;
+        margin-top: -183px;
+    }
+    .historia h1 {
+        width: 233px;
+        text-decoration: underline;
+        height: auto;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-left: 32px;
+    }
+    .historia p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        height: 483px;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .contenedor2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor2 h2 {
+        width: 100%;
+        text-decoration: underline;
+        height: 60px;
+        text-align: center;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-top: 15px;
+        margin-bottom: 38px;
+    }
+    .contenedor3 {
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+        ;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* GUSTAVOOOOOOOOOOOOOOOOOO HP */
+
+@media only screen and (min-width: 285px) and (max-width: 359px) {
+    /* .ContenedorPrincipal {
+        width: 100%;
+        height: 7490px;
+    }
+    .contenedor1 {
+        width: 100%;
+        height: 610px;
+        background-image: url(../img/prueba.jpg);
+    }
+    .contenedor1 nav {
+        width: 150%;
+        height: 50px;
+        margin-left: -100px;
+        margin-top: -20px;
+    }
+    .contenedor1 li {
+        width: 70px;
+        height: 40px;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 1.3px;
+        margin-top: 20px;
+    }
+    .contenedor1 li a:hover {
+        color: white;
+    }
+    .redes {
+        width: 60px;
+        height: 160px;
+        margin-left: 225px;
+        margin-top: 35px;
+    }
+    .redes img {
+        width: 50px;
+        height: 50px;
+    }
+    .historia {
+        width: 100%;
+        height: 500px;
+        margin-left: 0px;
+        margin-top: -123px;
+    }
+    .historia h1 {
+        width: 70%;
+        text-decoration: underline;
+        height: auto;
+        border: 0px solid black;
+        font-size: 35px;
+        color: white;
+        margin-left: 10px;
+    }
+    .historia p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        height: 483px;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 14px;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .contenedor2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor2 h2 {
+        width: 100%;
+        text-decoration: underline;
+        height: 60px;
+        text-align: center;
+        font-size: 32px;
+        color: #00BCFF;
+        margin-top: 15px;
+        margin-bottom: 38px;
+    }
+    .tarjetas {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas img {
+        width: 275px;
+        height: 310px;
+        margin-left: 3px;
+        border-radius: 8px;
+        box-shadow: -7px 4px 13px -4px rgba(0, 0, 0, 0.75);
+        margin-bottom: 10px;
+    }
+    .tarjetas p {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .leerMas {
+        width: 135px;
+        height: 45px;
+        margin-left: 75px;
+    }
+    .contenedor3 {
+        border: 1px solid black;
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 img {
+        padding-top: 20px;
+        width: 60px;
+        height: 90px;
+        margin-left: 20px;
+    }
+    .Descubre1 p {
+        width: 80px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 15px;
+        text-align: center;
+        color: black;
+    }
+    footer {
+        margin-top: 0px;
+        width: 100%;
+        height: 70px;
+    }
+    footer p {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+    .modal-title {
+        width: 285px;
+        height: 50px;
+        text-align: center;
+        font-size: 25px;
+        color: #00BCFF;
+        margin-left: 0px;
+    }
+    .modal-content {
+        width: 285px;
+        height: auto;
+        margin-left: -10px;
+    }
+    .texto-modal h4 {
+        width: 100%;
+        text-align: center;
+        border: 0px solid black;
+        color: #D6B12E;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    .texto-modal p {
+        width: 100%;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-text-fill-color: black;
+        font-size: 14px;
+    }
+    .btn-close {
+        cursor: pointer;
+        width: 70px;
+        height: 40px;
+        border: 0;
+        border-radius: 10px;
+        transition: 200ms ease-in-out;
+    }
+    .carousel-item img {
+        width: 255px;
+        height: 200px;
+        margin-left: 0px;
+    } */
+    .ContenedorPrincipal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: 841px;
+        border: 0px solid black;
+        background-image: url(../img/prueba.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contenedor1 a {
+        text-decoration: none;
+        color: #5F5E5E;
+        color: white;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        border: 0px solid black;
+        padding-top: 30px;
+        margin-left: -8px;
+        padding-left: 0px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 104%;
+    }
+    .contenedor1 li {
+        width: 74px;
+        height: 29px;
+        border: 0px solid black;
+        font-size: 14px;
+        text-align: center;
+        margin-left: -15px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 57px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 20px;
+    }
+    .historia {
+        width: 100%;
+        height: 540px;
+        margin-left: 0px;
+        margin-top: -183px;
+    }
+    .historia h1 {
+        width: 233px;
+        text-decoration: underline;
+        height: auto;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-left: 3px;
+    }
+    .historia p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 78%;
+        height: 483px;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .contenedor2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor2 h2 {
+        width: 100%;
+        text-decoration: underline;
+        height: 60px;
+        text-align: center;
+        font-size: 43px;
+        color: #00BCFF;
+        margin-top: 15px;
+        margin-bottom: 38px;
+    }
+    .contenedor3 {
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+        ;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}

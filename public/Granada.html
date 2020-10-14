@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Departamentos.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>     -->
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Clima">
+    <link rel="apple-touch-icon" href="../public/images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una simple pagina web de turismo">
+    <meta name="theme-color" content="#000" />
+    <title>Granada</title>
+</head>
+
+<body>
+    <section class="ContenedorPrincipal">
+        <section class="contenedor1">
+
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Hoteles.html">Hoteles</a></li>
+                    <li><a href="Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Aventuras.html">Aventuras</a></li>
+                </ul>
+            </nav>
+            <div class="redes">
+                <a href=""><img src="img/fb.png" alt=""></a>
+                <a href=""><img src="img/ig.png" alt=""></a>
+                <a href=""><img src="img/gg.png" alt=""></a>
+            </div>
+
+            <div class="historia">
+                <h1>Historia de Granada</h1>
+                <p>
+                    Fundada en 1524 por Francisco Hernández de Córdobas en honor a su natal Granada de España, por su posición geográfica sufrió en el siglo XVII varias incursiones piratas que saqueaban la ciudad. Dichas incursiones se dieron en 1665,1670 y 1685. En 1856
+                    fue incendiada y destruida casi totalmente por los huestes del Filibustero William Walker. Luego de la Guerra nacional se inicio su reconstrucción privando en ella una riquísima arquitectura colonial y neo clásica en sus Iglesias y
+                    demás Edificios y plazas.
+                </p>
+            </div>
+            <!-- 
+        <div class="ruben">
+            <img src="img/ruben.png" alt="">
+        </div> -->
+        </section>
+
+
+        <section class="contenedor2">
+            <h2>Lugares para visitar en Granada.</h2>
+            <div class="tarjetas">
+                <img src="img/palacio cultural 0.jpg" alt="Imagen de leon">
+                <p>Palacio Cultural de Granada</p>
+                <button class="leerMas" type="button" data-toggle="modal" data-target="#myModal">Leer mas.</button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Palacio Cultural de Granada</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/palacio cultural 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/palacio cultural 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/palacio cultural 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Palacio Cultural?</h4>
+                                    <p>Ubicado en el costado sur del Parque Colon o Parque Central, el espacio urbano del parque se amplia y prolonga con el porticado del Palacio Municipal que alberga oficinas donde funciona la Alcaldía y los inmuebles adyacentes,
+                                        definiéndose como una unidad espacial en los costados sur y oeste del centro de la ciudad, dichos inmuebles de reminiscencia Colonial y ecléctica contrastan con la fachada de influencia andaluza que presenta la
+                                        Alcaldía. Fue construido en 1751 y luego del incendio de la ciudad fue reconstruido en 1856 y se le hicieron reparaciones en 1873 y ya en 1938 se procedió a la reconstrucción total del edificio. </p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/jalteva 0.jpg" alt="Imagen de leon">
+                <p>Conjunto Colonial Jalteva.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal1">Leer mas.</button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Conjunto Colonial Jalteva</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/jalteva 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/jalteva 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/jalteva 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Conjunto Colonial Jalteva?</h4>
+                                    <p>Las viviendas están ubicadas en el costado sur de la plaza de Jalteva, su conjunto posee corredores porticados que se desplazan a lo largo del costado sur el emplazamiento de la plaza, que en su costado norte está limitado
+                                        por los Muros de Jalteva. El costado de la plaza lo limitan viviendas de antecedentes constructivos coloniales. El conjunto de viviendas, la plaza y los muros, definen un conjunto urbano y arquitectónico único de
+                                        gran valor. Todas las viviendas del conjunto colonial de Jalteva tienen sus antecedentes especiales en una Casa Hacienda que tenía el acceso de los medios de locomoción coloniales y su definición espacial se ubica
+                                        en la segunda mitad del siglo XIX.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tarjetas">
+                <img src="img/parque colon 0.jpg" alt="Imagen de leon">
+                <p>Parque Colón</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">Leer mas.</button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Parque Colón.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/parque colon 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/parque colon  2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/parque colon 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Parque Colón?</h4>
+                                    <p>El parque Colon también llamado parque Central esta localizado en el centro de la ciudad teniendo la calle Real como eje continuo que unía la Plaza Central con el antiguo núcleo indígena de Jalteva, la calle La Calzada
+                                        que comunicaba el centro de la ciudad con las inmediaciones de las costas del Gran Lago. Esta rodeado de edificios relevantes de usos diferentes y fue construido hacia 1880 para sustituir el antiguo Tiangue que
+                                        ocupa las inmediaciones de la plaza de la Ciudad.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/catedral-granada 0.jpg" alt="Imagen de leon">
+                <p>Catedral de Granada</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal3">Leer mas.</button>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Catedral de Granada.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/catedral-granada 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/catedral-granada 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/catedral-granada 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la Catedral de Granada?</h4>
+                                    <p>Granada aunque no fue sede episcopal, construyo varias Iglesias importantes que hoy son parte importante de la oferta turística de la ciudad. En el siglo XVII se construyó una Iglesia Parroquial que luego cedió su puesto
+                                        a la Catedral actual, situada en el centro de la plaza Mayor. Su fachada es absolutamente Neoclásica. El primer cuerpo del frontis presenta tres nichos y dos accesos y columnas jónicas que forman entre si nueve
+                                        intercolumnios. Cuenta con un atrio porticado y su ingreso principal esta remarcado por doce columnas jónicas, por dos cuerpos divididos por una doble cornisa. Consta de tres naves sus paredes están construidas
+                                        de bloques de concreto y piedra cantera.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/fortaleza 0.jpg" alt="Imagen de leon">
+                <p>Fortaleza la Polvora.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">Leer mas.</button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Fortaleza la Polvora.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/fortaleza 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/fortaleza 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/fortaleza 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la Fortaleza la Polvora?</h4>
+                                    <p>La fortaleza situada al final del eje urbano de la Calle Real, marca el límite de la ciudad y sirve de remate a la perspectiva que se observa desde el parque Colon. En 1784 se vio la necesidad de construir dicha fortaleza
+                                        pues la ciudad carecía de un lugar apropiado en que almacenar la pólvora para conservarla adecuadamente y protegerla de la humedad. Fue entonces que se inició su construcción y se llamó originalmente Casa Almacén
+                                        la Pólvora. En su construcción se encuentran dos estilos bien definidos, el primero se encuentra en la casa que tiene un estilo netamente Colonial, el segundo corresponde a la fortaleza que consta de cinco torreones
+                                        ubicados en los vértices de la muralla similar a las fortificaciones Medievales.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tarjetas">
+                <img src="img/convento 0.jpg" alt="Imagen de leon">
+                <p>Convento e Iglesia San Francisco.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal6">  Leer mas. </button>
+                <div class="modal fade" id="myModal6" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Convento e Iglesia San Francisco.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/convento 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/convento 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/convento 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Que es el convento e iglesia san francisco?</h4>
+                                    <p>El Convento e Iglesia San Francisco, fundado en 1529, es la primera iglesia de la ciudad y uno de los edificios coloniales más importantes en Centroamérica. Este museo alberga además, parte de la monumental estatuaria
+                                        precolombina de Nicaragua. Otros de los sitios de interés son la Iglesia Ceiba, el Hotel del mismo nombre, donde podrá llevar a cabo actividades acuáticas, pesca y pasar la noche bajo el cielo inundado de estrellas.
+                                        Tome fotografías en el Fortín de San Pablo. Al sur está la isla Zapatera, famosa por su gran cantidad de petroglifos precolombinos que merecen ser visto</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tarjetas">
+                <img src="img/mombacho 0.jpg" alt="Imagen de leon">
+                <p>Volcan Mombacho.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal7">  Leer mas. </button>
+                <div class="modal fade" id="myModal7" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Volcan Mombacho.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/mombacho 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/mombacho 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/mombacho 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Volcan Mombacho?</h4>
+                                    <p>Entre nubes y ecosistemas de bosque enano y Nebliselva puedes disfrutar del sendero del quemado, que conduce a disfrutar de la belleza natural de 450 especies de flora y 175 de fauna entre las que se destacan: palmas,
+                                        helechos gigantes, brómelias, aráceas, orquídeas y el campo de fumarolas La Reserva Natural Volcán Mombacho se ubica a 18 Km al sur de Granada, variando su altura entre 850, 1345 40 msnm. El coloso es un volcán
+                                        apagado de época volcánica cuaternaria, localizado en la cordillera volcánica de la gran Depresión Tectónica en la Región Centro Pacífico de Nicaragua..</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/isla zapatera 0.jpg" alt="Imagen de leon">
+                <p>La Isla Zapatera.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal8">  Leer mas. </button>
+                <div class="modal fade" id="myModal8" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">La Isla Zapatera.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/isla zapatera 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/isla zapatera 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/isla zapatera 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la isla zapatera?</h4>
+                                    <p>Se localiza al sur de Granada, se encuentra en ella el Parque Nacional Archipiélago de Zapatera de origen volcánico, se destaca su flora, fauna y arte rupestre precolombino. La Isla del Muerto santuario precolombino
+                                        contiene una enorme variedad de estatuaria y cerámica</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tarjetas">
+                <img src="img/isletas de granada 0.jpg" alt="Imagen de leon">
+                <p>Isletas de granada.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal9">  Leer mas. </button>
+                <div class="modal fade" id="myModal9" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Isletas de Granada.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/isletas de granada 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/isletas de granada 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/isletas de granada 3.jpg" alt="Third slide"> </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators8" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué son las Isletas de Granada?</h4>
+                                    <p>Recibe el nombre de Isletas de Granada una serie de más de 365 islotes que se encuentran situados al sureste de la población nicaragüense de Granada, sobre el llamado lago Nicaragua. Las isletas se encuentran dispersas
+                                        junto a la península de Asese. Las isletas son producto de una avalancha de piedra y lodo que se desprendió de las laderas del volcán Mombacho. El frente aluvial de la avalancha es la península de Asese. Según los
+                                        estudios realizados por expertos Thomas Shea, Benjamin van Wyk de Vries y Martín Pilato las isletas son producto de una avalancha del Mombacho y no una erupción, que puede observarse fácilmente utilizando Google
+                                        Earth.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/calzada 0.jpg" alt="Imagen de leon">
+                <p>La Calzada.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal10">  Leer mas. </button>
+                <div class="modal fade" id="myModal10" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">La Calzada.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/calzada 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/calzada 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/calzada 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es La Calzada?</h4>
+                                    <p>La Calle de la Calzada no solamente es bares y restaurantes, también confluyen artistas urbanos, poetas, pintores, artesanos, una amalgama de talentos que dan ese toque único a la ciudad que se complementa con su arquitectura
+                                        colonial. Es una calle empedrada de 500 metros y rodeada de viviendas coloniales, con el incremento del turismo, muchas familias han convertido sus casas en pequeños hoteles u hostales familiares, cuya noche varía
+                                        entre los 10 y 20 dólares. En los últimos años se ha modernizado hasta convertirse en un punto obligado a visitar para el turista nacional y extranjero.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contenedor3">
+
+            <h2>Tal vez esto tambien te interese:</h2>
+            <div class="Descubre1">
+                <div>
+                    <a href=""> <img src="img/hotel1.png" alt="Icono de un hotel" class="img1"></a>
+                    <p>Hoteles</p>
+                </div>
+
+                <div class="">
+                    <a href=""> <img src="img/restaurantes1.png" alt="Icono de un restaurante" class="img2"></a>
+                    <p class="texto-restaurante">Restaurantes</p>
+                </div>
+
+                <div class="correr">
+                    <a href=""><img src="img/Actividades1.png" alt="Icono de lugares" class="img3"></a>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrigth &copy; 2020 by Team Awesome </p>
+        </footer>
+
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>

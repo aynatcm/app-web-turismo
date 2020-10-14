@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Departamentos.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>     -->
+
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Clima">
+    <link rel="apple-touch-icon" href="../public/images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una simple pagina web de turismo">
+    <meta name="theme-color" content="#000" />
+    <title>Esteli</title>
+</head>
+
+<body>
+    <section class="ContenedorPrincipal">
+        <section class="contenedor1">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Hoteles.html">Hoteles</a></li>
+                    <li><a href="Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Aventuras.html">Aventuras</a></li>
+                </ul>
+            </nav>
+            <div class="redes">
+                <a href=""><img src="img/fb.png" alt="" /></a>
+                <a href=""><img src="img/ig.png" alt="" /></a>
+                <a href=""><img src="img/gg.png" alt="" /></a>
+            </div>
+
+            <div class="historia">
+                <h1>Historia de Esteli</h1>
+                <p>
+                    La ciudad de Estelí, Cabecera Departamental del mismo nombre, se localiza a 150 kilómetros de Managua, es la puerta de Las Segovia como se conoce a los departamentos de Nueva Segovia, Madriz, Estelí y la parte norte de Honduras, lo que potencia su posición
+                    como principal centro de actividades agro turística y comercial. “El Diamante de Las Segovia” se localiza en medio de un valle rodeado de mesetas y situado a 800mts sobre el nivel del mar, el cual lo hará disfrutar de su agradable
+                    clima.
+                </p>
+            </div>
+        </section>
+
+        <section class="contenedor2">
+            <h2>Lugares para visitar en Esteli.</h2>
+            <div class="tarjetas">
+                <img src="img/ruta sandino 0.jpg" alt="Imagen de leon" />
+                <p>Ruta Sandino.</p>
+                <button class="leerMas" type="button" data-toggle="modal" data-target="#myModal">
+            Leer mas.
+          </button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Ruta Sandino.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/ruta sandino 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/ruta sandino 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/ruta sandino 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Ruta Sandino?</h4>
+                                    <p>
+                                        La Ruta Sandino es un proyecto de Desarrollo Local y de recuperación Histórica del Héroe Nacional Augusto Cesar Sandino, nace de la necesidad de recuperar la memoria histórica, promover los valores del patriota y generar mejores niveles de vida en la
+                                        población rural de los 14 municipios participantes, en Condega: Museo Julio Cesar Salgado, Condega, Daraylí, El Bramadero, Venecia, Artesanía de Barro- Ducuale Grande, Sitio Arqueológico San Diego, Los Alpes – Cooperativa
+                                        “Nueva Esperanza “y Cooperativa “Julio Muñoz”, Cerro el Fraile, San Jerónimo, Las Brumas Tierra Colorada; en Pueblo Nuevo 4 Comunidades se incluyen, son parte integral de la Ruta Turística e Histórica.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/salto la estanzuela 0.jpg" alt="Imagen de leon" />
+                <p>Salto La Estanzuela.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal1">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Salto La Estanzuela.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/salto la estanzuela 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/salto la estanzuela 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/salto la estanzuela 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Salto La Estanzuela?</h4>
+                                    <p>
+                                        Ubicada a 12 Kilómetros al suroeste de Esteli, en la salida que conduce al pueblo de San Nicolás. Llegando al sitio, lo primero que observa es una hermosa cascada, de 40 metros de altura, que a sus pies forma una poza con aguas profanadas y frescas donde
+                                        abundan muchos cantos rodados, entre ellos algunas variedades de jaspes, ópalos y otras piedras que pulidas ofrecen interesantes vetas y lustres. Para los que gustan de aventura, este sitio es el ideal para practicar
+                                        el clasismo, ya que las ramas que se cruzan entre si y su mecido movimiento, permiten lanzarse desde lo más alto para caer en un arroyuelo cobijado de un ambiente sombreado
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/jalacate 0.jpg" alt="Imagen de leon" />
+                <p>Sendero el Jalacate</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Sendero el Jalacate
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/jalacate 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/jalacate 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/jalacate 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Sendero el Jalacaste?</h4>
+                                    <p>
+                                        Escultura talladas sobre piedras de todos los tamaños elaboradas por Alberto Gutierrez Jiron, un hombre anciano, cabello largo y canoso, quien ha tallado por casi 30 años los hechos que para el han sido relevantes y han marcado la historia de Nicaragua
+                                        y la humanidad, por ejemplo: El nacimiento de Jesus, la caida de las torres gemelas, etc.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/miraflor 0.jpg" alt="Imagen de leon" />
+                <p>Laguna De Miraflores.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal3">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Laguna De Miraflores.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/miraflor 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/miraflor 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/miraflor 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es La Laguna de Miraflores?</h4>
+                                    <p>
+                                        Majestuoso sitio selvático con una extensa área de más de 200km cuadrados, esta montaña está llena de exótica flora y fauna, cuyo ecosistema muestra desde una sabana tropical hasta un bosque tropical seco, pasando a un follaje de pinos y luego a un bosque
+                                        nubloso en su elevación mas alta. Se pueden observar los vistosos quetzales y guardabarrancos junto con impresionantes arboles y helechos. La Laguna de Miraflores, enclavada en la reserva, es un cuerpo de agua ubicada
+                                        a 1300 mts.de altura y en sus alrededores existen diferentes tipos de bellas orquídeas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/tisey 0.jpg" alt="Imagen de leon" />
+                <p>Reserva Natural Tisey.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Reserva Natural Tisey.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/tisey 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/tisey 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/tisey 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es La Reserva Natural Tisey?</h4>
+                                    <p>
+                                        La reserva natural debe su nombre al Cerro Tiséy, donde se desarrollaba en considerables densidades un helecho gigante que los pobladores de antaño le reconocían como Tiséy. Este es un nombre Ulúa Matagalpa que se traduce por hechicera o Engañadora. Ubicada
+                                        a 12km. Al suroeste de Esteli, en esta reserva podemos encontrar paisajes y bellezas escénicas, donde se admira vistas sobre la planicie del pacifico y lo volcanes Momotombo y Cerro Negro. En este majestuoso lugar,
+                                        podrá encontrar 99 especies entre aves mamíferos, reptiles y anfibios de las cuales 62 especies son aves. Además podrá disfrutar de la degustación de queso madurado de cabra y vaca que son elaborados en la comunidad
+                                        la garnacha.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/museo esteli 0.jpg" alt="Imagen de leon" />
+                <p>Museo Municipal.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal5">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal5" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Museo Municipal
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/museo esteli 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/museo esteli 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/museo esteli 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es El Museo Municipal?</h4>
+                                    <p>
+                                        Fundado en 1993 por iniciativa de la historiadora Berenice Castellano, este pequeño y sencillo museo exhibe una variada colección de piezas antiguas. En él uno puede observar desde billetes nacionales y extranjeros que están fuera de circulación, hasta
+                                        piezas arqueológicas encontradas en barrios del municipio de Estelí y otras comunidades. El museo es atendido por dos estelianos que brindan un tour gratuito dentro de las instalaciones. Dicho recorrido empieza
+                                        con una breve explicación sobre la colección de billetes y monedas nicaragüenses que se usaron en años anteriores, y otras que provienen de Egipto, Argentina, Rusia, Holanda, entre otros países.
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/veranera 0.jpg" alt="Imagen de leon" />
+                <p>La Veranera</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal6">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal6" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    La Veranera
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/veranera 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/veranera 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/veranera 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es La Veranera?</h4>
+                                    <p> El mural, ubicado en la pared de la vivienda de doña Susy Díaz, es obra del pintor Julio César Moreno Aguirre. Asegura que La Veranera lo llena de orgullo porque le hizo poner los ojos en algo importante para el ser
+                                        humano: la naturaleza. La pintura atrae la atención de turistas nacionales y extranjeros, quienes suben fotografías de la obra en las diversas redes sociales. Moreno tiene una trayectoria de más de 30 años pintando
+                                        murales en Nicaragua y en otros países como Irlanda, Holanda, España, Canadá y Alemania. El creador tuvo el privilegio de representar a nuestro país en Irlanda, en el Festival de la Cultura del Mundo, y también
+                                        estudió en una casa de artistas en Alemania.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/funarte 0.jpg" alt="Imagen de leon" />
+                <p>Funarte.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal7">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal7" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Funarte.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/funarte 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/funarte 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/funarte 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Funarte?</h4>
+                                    <p>
+                                        Fundación de Apoyo al Arte Creador Infantil, FUNARTE, es una organización civil, sin fines de lucro, que contribuye a la transformación social y a la calidad educativa en beneficio de las niñas, niños y adolescentes a través del arte.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor3">
+            <h2>Tal vez esto tambien te interese:</h2>
+            <div class="Descubre1">
+                <div>
+                    <a href="">
+                        <img src="img/hotel1.png" alt="Icono de un hotel" class="img1" /></a>
+                    <p>Hoteles</p>
+                </div>
+
+                <div class="">
+                    <a href="">
+                        <img src="img/restaurantes1.png" alt="Icono de un restaurante" class="img2" /></a>
+                    <p class="texto-restaurante">Restaurantes</p>
+                </div>
+
+                <div class="correr">
+                    <a href=""><img src="img/Actividades1.png" alt="Icono de lugares" class="img3" /></a>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrigth &copy; 2020 by Team Awesome</p>
+        </footer>
+    </section>
+
+    <script src="./index.js">
+    </script>
+</body>
+
+</html>

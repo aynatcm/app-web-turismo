@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Departamentos.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>     -->
+
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Clima">
+    <link rel="apple-touch-icon" href="../public/images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una simple pagina web de turismo">
+    <meta name="theme-color" content="#000" />
+    <title>Managua</title>
+</head>
+
+<body>
+    <section class="ContenedorPrincipal">
+        <section class="contenedor1">
+
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Hoteles.html">Hoteles</a></li>
+                    <li><a href="Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Aventuras.html">Aventuras</a></li>
+                </ul>
+            </nav>
+            <div class="redes">
+                <a href=""><img src="img/fb.png" alt=""></a>
+                <a href=""><img src="img/ig.png" alt=""></a>
+                <a href=""><img src="img/gg.png" alt=""></a>
+            </div>
+
+            <div class="historia">
+                <h1>Historia de Managua</h1>
+                <p>
+                    Managua se ubica en la costa sur del lago de Managua y es la capital de Nicaragua. Su catedral, solo el exterior desde un terremoto de 1972, se ubica en la Plaza de la Revolución. Cerca está la tumba del líder sandinista Carlos Fonseca. El Palacio Nacional
+                    de la Cultura de 1935 alberga el Museo Nacional. El Parque Histórico Nacional Loma de Tiscapa se ubica sobre un cerro y es conocido por su lago en un cráter y la enorme estatua del revolucionario Augusto Sandino.
+                </p>
+            </div>
+            <!-- 
+        <div class="ruben">
+            <img src="img/ruben.png" alt="">
+        </div> -->
+        </section>
+
+
+        <section class="contenedor2">
+            <h2>Lugares para visitar en Managua.</h2>
+            <div class="tarjetas">
+                <img src="img/salvador allende 0.jpg" alt="Imagen de leon">
+                <p>Puerto Salvador Allende.</p>
+                <button class="leerMas" type="button" data-toggle="modal" data-target="#myModal">Leer mas.</button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" style="margin-left: 0px;">Puerto Salvador Allende</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/salvador allende 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/salvador allende 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/salvador allende 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el puerto salvador allende?</h4>
+                                    <p>El Puerto Salvador Allende, punto de anclaje del un pequeño crucero «La novia del Xolotlán» que navega por el lago, el puerto cuenta con restaurantes para gustos internacionales, bares, discotecas y áreas de recreación
+                                        para todas las edades.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/teatro 0.jpg" alt="Imagen de leon">
+                <p>Teatro Nacional Ruben Darío.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal1">Leer mas.</button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Teatro Nacional Rubén Darío</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/teatro 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/teatro 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/teatro 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el teatro nacional Ruben Darío?</h4>
+                                    <p>El Teatro Nacional Rubén Darío es un teatro ubicado en Managua, capital de Nicaragua. Comenzó a planificarse en 1964 cuando un grupo de personas asociadas en el Instituto Pro Arte Rubén Darío encabezado por la esposa
+                                        del General de División Anastasio Somoza Debayle (Jefe Director de la Guardia Nacional GN) y posteriormente primera dama de la república, doña Hope Portocarrero, se interesó porque Nicaragua tuviese un edificio
+                                        dedicado a las artes en memoria del poeta Rubén Darío, cuyo centenario natal se celebraría el 18 de enero de 1967.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tarjetas">
+                <img src="img/masachapa 0.jpg" alt="Imagen de leon">
+                <p>Masachapa.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">Leer mas.</button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Masachapa.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/masachapa 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/masachapa 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/masachapa 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Masachapa?</h4>
+                                    <p>Por su amplitud y planicie, en esta playa se pueden apreciar impresionantes atardeceres. Su belleza fue la inspiración del compositor Rafael Gastón Pérez, para la letra de la muy conocida canción “Cuando calienta el
+                                        sol”, aunque actualmente se le atribuye a un mexicano. Cuenta con un estanque de salida de río en uno de los extremos de la playa. También posee muchas formaciones rocosas, por lo tanto se tiene que andar con mucho
+                                        cuidado cuando la marea sube, puesto que el agua cubre la rocas y dejan de observarse. Es un pueblo de pescadores. En la playa se observan las lanchas llenas de pescados y mariscos, donde se puede comprar a un bajo
+                                        precio. </p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/catedral 0.jpg" alt="Imagen de leon">
+                <p>Catedral Metropolitana.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal3">Leer mas.</button>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Catedral Metropolitana</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/catedral 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/catedral 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/catedral 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la Catedral Metropolitana?</h4>
+                                    <p>La Catedral Metropolitana de la Inmaculada Concepción de María de Managua o simplemente Catedral de Managua, es la sede de la Arquidiócesis de Managua y está dedicada desde 1993 a la advocación mariana de la Inmaculada
+                                        Concepción de María, patrona de Nicaragua. Se encuentra en la ciudad de Managua, departamento de Managua, en Nicaragua. Se caracteriza por tener 63 cúpulas, que era el número de parroquias de la arquidiócesis al
+                                        momento de su construcción, y una combinación de estilos ecléctico, árabe y románico, que recuerda a una mezquita islámica. Fue diseñada y construida por el arquitecto mexicano Ricardo Legorreta entre 1991 y 1993.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/huellas 0.jpg" alt="Imagen de leon">
+                <p>Las huellas de Acahualinca.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">Leer mas.</button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Huellas de Acahualinca</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/huella 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/huellas 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/huellas 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué son las huellas de Acahualinca?</h4>
+                                    <p>"Las huellas de Acahualinca (entre el 232 y el 8 a. C.) se encuentran en Managua (Nicaragua), cerca de la ribera sur del lago Managua (o lago Xolotlán) en una zona llamada El Cauce. Son huellas fósiles del periodo Holoceno
+                                        tardío que fueron hechas por pobladores de la zona en la ceniza y el fango volcánicos que solidificaron hace 2120 años, poco después de que un grupo de quince individuos pasaran por allí. Las huellas de Acahualinca
+                                        son una de las evidencias más antigua de existencia humana prehistórica en Nicaragua. Se afirma a veces que la gente que dejó sus huellas en el lugar. También se encuentran huellas fosilizadas de varios animales,
+                                        pero dado que se entrecruzan con las de los humanos, se sabe que no viajaban con estos.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tarjetas">
+                <img src="img/hacienda 0.jpg" alt="Imagen de leon">
+                <p>Hacienda San Jacinto.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal6">  Leer mas. </button>
+                <div class="modal fade" id="myModal6" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Hacienda San Jacinto.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/hacienda 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/hacienda 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/hacienda 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la Hacienda San Jacinto?</h4>
+                                    <p>Monumento Histórico y Memorial Nacional «Casa Hacienda San Jacinto» es el lugar donde se libró la batalla de San Jacinto el 14 de septiembre de 1856 entre un grupo de 160 efectivos del nicaragüense Ejército del Septentrión
+                                        ―al mando del coronel José Dolores Estrada Vado y 300 filibusteros estadounidenses de William Walker comandados por su lugarteniente Byron Cole, saliendo victoriosos los patriotas nicaragüenses, siendo la única
+                                        batalla en el mundo que se ganó gracias a una estampida de caballos causada por el ataque a retaguardia, el cual fue ordenado por Estrada.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tarjetas">
+                <img src="img/lago 1.jpg" alt="Imagen de leon">
+                <p>El lago de Managua.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal7">  Leer mas. </button>
+                <div class="modal fade" id="myModal7" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">El lago de Managua.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/lago 0.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/lago 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/lago 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el lago de Managua?</h4>
+                                    <p>El lago Xolotlán o lago de Managua está localizado en el oeste de Nicaragua, en la región de las tierras bajas del país. Es el segundo lago más grande del país y de América central, con una extensión de 1049 km², una
+                                        longitud de 65 km y una anchura máxima de 58 km. La profundidad máxima es de 20 m y la media de 9,5 m. Está localizado a una altitud de 39 msnm. La ciudad de Managua se asienta en su costa sureste. Está comunicado
+                                        a través del río Tipitapa (paso de Panaloya) con el lago Cocibolca, de mayor tamaño, localizado 35 km al sureste. La conexión entre ellos se interrumpió en el año 1910 por un descenso del nivel del Xolotlán, pero
+                                        se restableció en 1998 en ocasión del huracán Mitch, que subió el nivel de este por sobre el de Cocibolca</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/laguna 0.jpg" alt="Imagen de leon">
+                <p>La Laguna de Tiscapa.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal8">  Leer mas. </button>
+                <div class="modal fade" id="myModal8" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Laguna de Tiscapa.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/laguna 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/laguna 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/laguna 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la laguna de Tiscapa?</h4>
+                                    <p>La Reserva Natural Laguna de Tiscapa, se ubica en la parte sureste de la ciudad de Managua, capital de Nicaragua a escasos 2 kilómetros de la costa del Lago de Managua o Xolotlán. Comprende la Loma de Tiscapa y la Laguna
+                                        de Tiscapa, una laguna de origen volcánico formada hace más de 10000 años. Tiene una forma más o menos circular y se puede considerar como similar a la mayoría de las lagunas existentes en la región del Pacífico
+                                        de Nicaragua a excepción de la Laguna de Masaya; Como todas ellas su origen es volcánico. Siendo un área protegida, fue declarada reserva natural el 31 de octubre de 1991.La Reserva es operada por el Ministerio
+                                        del Ambiente y los Recursos Naturales (MARENA) y es una de 78 áreas protegidas de Nicaragua.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tarjetas">
+                <img src="img/chocoyero 0.jpg" alt="Imagen de leon">
+                <p>El Chocoyero.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal9">  Leer mas. </button>
+                <div class="modal fade" id="myModal9" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">El Chocoyero.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/chocoyero 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/chocoyero 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/chocoyero 3.jpg" alt="Third slide"> </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators8" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Chocoyero?</h4>
+                                    <p>La Reserva Natural de 'El Chocoyero' es un lugar grandioso para ir de excursión y observar la naturaleza. Esta reserva esta localizada a menos de 30 kilómetros de Managua. Los últimos siete kilómetros no están pavimentados
+                                        y atraviesan plantaciones de piña, café y banano. Con una abundancia de agua, El Chocoyero está siempre verde y la vida silvestre floreciendo. Dos tipos de monos habitan en el parque: el mono aullador y el mono
+                                        cara blanca. El mono aullador es mas grande, negro y aúlla bastante. Pueden ser escuchados desde lejos, pero, si los quiere escuchar de cerca tome el camino Congo, el cual los llevara a ver a estos monos más de
+                                        cerca. Los monos cara blanca son más raros de ver, pero ellos bajan de las montañas por la tarde y es cuando se pueden observar desde los caminos regulares.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/pochomil 0.jpg" alt="Imagen de leon">
+                <p>Pochomil.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal10">  Leer mas. </button>
+                <div class="modal fade" id="myModal10" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Pochomil.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/pochomil 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/pochomil 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/pochomil 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Pochomil?</h4>
+                                    <p>La amplia playa de Pochomil es una de las más desarrolladas de la zona del Pacífico de Nicaragua. Esto significa que el visitante encontrará restaurantes, infraestructura turística y varias actividades de entretenimiento.
+                                        A pesar de esto, la playa no siempre se llena. Donde quiera que vaya, tendrá por seguro a niños y mujeres vendiéndole artesanías hechas de conchas a precios accesibles. También verá a hombres montados a cabllo que
+                                        le ofrecerán realizar paseos a caballo. También es bonito caminar en la playa mientras es sol desaparece lentamente en el océano.</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contenedor3">
+
+            <h2>Tal vez esto tambien te interese:</h2>
+            <div class="Descubre1">
+                <div>
+                    <a href=""> <img src="img/hotel1.png" alt="Icono de un hotel" class="img1"></a>
+                    <p>Hoteles</p>
+                </div>
+
+                <div class="">
+                    <a href=""> <img src="img/restaurantes1.png" alt="Icono de un restaurante" class="img2"></a>
+                    <p class="texto-restaurante">Restaurantes</p>
+                </div>
+
+                <div class="correr">
+                    <a href=""><img src="img/Actividades1.png" alt="Icono de lugares" class="img3"></a>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrigth &copy; 2020 by Team Awesome </p>
+        </footer>
+
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,845 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contenedor-principal {
+    width: 1262px;
+    height: auto;
+}
+
+.contenedor1 {
+    margin-top: -12px;
+    width: 1262px;
+    height: 640px;
+    border: 0px solid black;
+    background-image: url(../img/portada\ hotel.jpg);
+    background-size: cover;
+}
+
+.navegadores {
+    margin-top: -35px;
+}
+
+.contenedor1 nav {
+    width: 720px;
+    height: 30px;
+    border: 0px solid black;
+    padding-top: 30px;
+    margin-left: 462px;
+}
+
+.contenedor1 li {
+    width: 150px;
+    height: 30px;
+    border: 0px solid black;
+    float: left;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 25px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.contenedor1 li:hover {
+    transform: scale(1.1);
+}
+
+.contenedor1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor1 a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.redes {
+    width: 60px;
+    height: 280px;
+    margin-left: 1202px;
+    border: 0px solid black;
+}
+
+.redes img {
+    width: 60px;
+    height: 60px;
+    border: 0px solid black;
+    margin-top: 20px;
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+}
+
+.redes img:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.contenedor1 h1 {
+    width: 620px;
+    height: 110px;
+    margin-top: -90px;
+    color: white;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.contenedor1 h2 {
+    width: 607px;
+    height: 110px;
+    margin-top: -35px;
+    color: white;
+    letter-spacing: .5px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+#Departamentos {
+    width: 100%;
+    height: 9660px;
+}
+
+#Departamentos h3 {
+    width: 100%;
+    margin-left: 32px;
+}
+
+.tarjetas {
+    margin-bottom: 25px;
+}
+
+.texto-hotel h2 {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: rgb(0, 174, 255);
+    margin-top: 15px;
+    font-size: 38px;
+}
+
+.hoteles ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 26px;
+}
+
+.texto-hotel {
+    width: 100%;
+    height: 200px;
+}
+
+.texto-hotel li {
+    width: 135px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    transition: 500ms ease-in-out;
+}
+
+.texto-hotel li:hover {
+    transform: scale(1.05);
+}
+
+.texto-hotel a {
+    text-decoration: none;
+    color: black;
+}
+
+.texto-hotel a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.tarjetas img {
+    border-radius: 25px;
+}
+
+.tarjetas h3 {
+    width: 220px;
+    height: 50px;
+    font-size: 35px;
+    margin-left: 10px;
+    color: rgb(0, 174, 255);
+    border: 1px solid black;
+}
+
+
+/*carousel*/
+
+.texto-hotel1,
+.texto-completo {
+    margin: 0;
+    padding: 0;
+}
+
+.texto-completo {
+    text-decoration: none;
+}
+
+.Carousel {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    border: 0px solid black;
+}
+
+.Carousel h2 {
+    width: 100%;
+    text-transform: uppercase;
+    height: 60px;
+    border: 0px solid black;
+    text-align: center;
+    font-size: 39px;
+}
+
+
+/* images */
+
+.slick-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.slick {
+    position: relative;
+    width: 288px;
+    border: 0px solid black;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.slick h5 {
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+}
+
+.slick h5 small {
+    font-size: 15px;
+    display: block;
+}
+
+.slick a img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    transition: .3s ease-in-out;
+}
+
+.slick a img:hover {
+    opacity: .85;
+}
+
+
+/* buttons */
+
+.slick-arrow {
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15);
+    border: 0;
+    cursor: pointer;
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: rgba(0, 0, 0, .7);
+}
+
+.slick-prev {
+    left: 0px;
+}
+
+.slick-next {
+    right: 0px;
+}
+
+span {
+    margin-top: -20px;
+    font-size: 80px;
+    color: black;
+}
+
+.owl-nav {
+    text-align: center;
+}
+
+.subir {
+    width: 60px;
+    height: 60px;
+}
+
+.subir img {
+    width: 100%;
+    height: 100%;
+}
+
+.owl-carousel h2 {
+    width: 245px;
+    height: 50px;
+    font-size: 29px;
+    margin-top: -200px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.owl-carousel img {
+    width: 245px;
+    height: 400px;
+}
+
+.owl-carousel {
+    width: 300px;
+    height: 450px;
+}
+
+.imagenes {
+    width: 245px;
+    height: 400px;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+}
+
+#como {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #D6B12E;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    margin-left: 75px;
+}
+
+.contenedor3 {
+    margin-top: 40px;
+    width: 1262px;
+    height: 230px;
+}
+
+.contenedor3 h2 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #00BCFF;
+    font-size: 44px;
+    text-shadow: 0px 2px 1px #FFD447;
+}
+
+.Descubre1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Descubre1 img {
+    width: 110px;
+    height: 130px;
+}
+
+.restaurante p {
+    padding-left: 60px;
+}
+
+.Descubre1 p {
+    width: 110px;
+    height: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+footer {
+    border: 0px solid black;
+    width: 1262px;
+    height: 70px;
+    background-color: #FFEDB6;
+}
+
+footer p {
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    -webkit-text-fill-color: #696A6A;
+    -webkit-text-stroke: 1.2px #696A6A;
+    padding-top: 25px;
+}
+
+
+/* Responsiveeeeeeeeee */
+
+@media only screen and (min-width: 375px) and (max-width:375px) {
+    .contenedor-principal {
+        width: 375px;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 375px;
+        background-size: auto;
+        background-image: url(../img/fondo\ 1.jpg);
+        background-repeat: no-repeat;
+        height: 358px;
+    }
+    .contenedor1 nav {
+        width: 375px;
+        margin-left: 0px;
+        height: 30px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 375px;
+        height: 30px;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        list-style-type: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 56px;
+        height: 184px;
+        margin-left: 320px;
+        padding-top: 25px;
+    }
+    .contenedor1 h1 {
+        width: 375px;
+        height: 105px;
+        margin-top: -90px;
+        color: white;
+        margin-left: 5px;
+        letter-spacing: 1px;
+        font-size: 37px;
+    }
+    .contenedor1 h2 {
+        width: 375px;
+        height: 105px;
+        margin-top: -44px;
+        color: white;
+        letter-spacing: 0.5px;
+        margin-left: 5px;
+        font-size: 37px;
+    }
+    .texto-hotel {
+        width: 375px;
+        height: 535px;
+    }
+    .texto-hotel h2 {
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color: rgb(0, 174, 255);
+        margin-top: 15px;
+        font-size: 32px;
+    }
+    .hoteles ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+    .texto-hotel li {
+        width: 118px;
+        height: 50px;
+        text-align: center;
+        font-size: 18px;
+        list-style: none;
+        transition: 500ms ease-in-out;
+    }
+    #Leon,
+    .titular {
+        width: 375px;
+        text-transform: uppercase;
+        height: 60px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .imagenes {
+        width: 245px;
+        height: 335px;
+        margin-left: 55px;
+        margin-top: 24px;
+    }
+    .owl-carousel {
+        display: none;
+        width: 375px;
+        z-index: 1;
+    }
+    .owl-nav {
+        text-align: center;
+        padding-right: 19px;
+    }
+    span {
+        margin-top: -20px;
+        font-size: 80px;
+        color: black;
+        padding-left: 11px;
+    }
+    .contenedor3 {
+        margin-top: -131px;
+        width: 375px;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 375px;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 375px;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 375px;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeeeeeeee */
+
+@media only screen and (min-width: 414px) and (max-width: 414px) {
+    .contenedor-principal {
+        width: 414px;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 414px;
+        background-size: auto;
+        background-image: url(../img/fondo\ 1.jpg);
+        background-repeat: no-repeat;
+        height: 358px;
+    }
+    .contenedor1 nav {
+        width: 414px;
+        margin-left: 0px;
+        height: 30px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 414px;
+        height: 30px;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        list-style-type: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 56px;
+        height: 184px;
+        margin-left: 345px;
+        padding-top: 25px;
+    }
+    .contenedor1 h1 {
+        width: 375px;
+        height: 105px;
+        margin-top: -90px;
+        color: white;
+        margin-left: 20px;
+        letter-spacing: 1px;
+        font-size: 37px;
+    }
+    .contenedor1 h2 {
+        width: 375px;
+        height: 105px;
+        margin-top: -44px;
+        color: white;
+        letter-spacing: 0.5px;
+        margin-left: 20px;
+        font-size: 37px;
+    }
+    .texto-hotel {
+        width: 414px;
+        height: 535px;
+    }
+    .texto-hotel h2 {
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color: rgb(0, 174, 255);
+        margin-top: 15px;
+        font-size: 32px;
+    }
+    .hoteles ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 26px;
+    }
+    .texto-hotel li {
+        width: 118px;
+        height: 50px;
+        text-align: center;
+        font-size: 18px;
+        list-style: none;
+        transition: 500ms ease-in-out;
+    }
+    #Leon,
+    .titular {
+        width: 414px;
+        text-transform: uppercase;
+        height: 60px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .imagenes {
+        width: 245px;
+        height: 335px;
+        margin-left: 78px;
+        margin-top: 24px;
+    }
+    .owl-carousel {
+        display: none;
+        width: 375px;
+        z-index: 1;
+    }
+    .owl-nav {
+        text-align: center;
+        padding-right: 19px;
+    }
+    span {
+        margin-top: -20px;
+        font-size: 80px;
+        color: black;
+        padding-left: 11px;
+    }
+    .contenedor3 {
+        margin-top: -131px;
+        width: 414px;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 414px;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 414px;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 414px;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeee */
+
+@media only screen and (min-width: 360px) and (max-width:360px) {
+    .contenedor-principal {
+        width: 360px;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 360px;
+        background-size: auto;
+        background-image: url(../img/fondo\ 1.jpg);
+        background-repeat: no-repeat;
+        height: 358px;
+    }
+    .contenedor1 nav {
+        width: 360px;
+        margin-left: 0px;
+        height: 30px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 360px;
+        height: 30px;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        list-style-type: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 56px;
+        height: 184px;
+        margin-left: 296px;
+        padding-top: 25px;
+    }
+    .contenedor1 h1 {
+        width: 360px;
+        height: 105px;
+        margin-top: -90px;
+        color: white;
+        margin-left: 5px;
+        letter-spacing: 1px;
+        font-size: 37px;
+    }
+    .contenedor1 h2 {
+        width: 360px;
+        height: 105px;
+        margin-top: -44px;
+        color: white;
+        letter-spacing: 0.5px;
+        margin-left: 5px;
+        font-size: 37px;
+    }
+    .texto-hotel {
+        width: 360px;
+        height: auto;
+    }
+    .texto-hotel h2 {
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color: rgb(0, 174, 255);
+        margin-top: 15px;
+        font-size: 32px;
+    }
+    .hoteles ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 52px;
+    }
+    .texto-hotel li {
+        width: 118px;
+        height: 50px;
+        text-align: center;
+        font-size: 18px;
+        list-style: none;
+        transition: 500ms ease-in-out;
+    }
+    #Leon,
+    .titular {
+        width: 360px;
+        text-transform: uppercase;
+        height: 60px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .imagenes {
+        width: 245px;
+        height: 335px;
+        margin-left: 55px;
+        margin-top: 24px;
+    }
+    .owl-carousel {
+        display: none;
+        width: 375px;
+        z-index: 1;
+    }
+    .owl-nav {
+        text-align: center;
+        padding-right: 19px;
+    }
+    span {
+        margin-top: -20px;
+        font-size: 80px;
+        color: black;
+        padding-left: 11px;
+    }
+    .contenedor3 {
+        margin-top: -131px;
+        width: 360px;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 360px;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 360px;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 360px;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}

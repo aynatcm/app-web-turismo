@@ -1,0 +1,1375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contenedor-principal {
+    width: 1262px;
+    height: 2280px;
+    border: 0px solid red;
+}
+
+.contenedor1 {
+    margin-top: -12px;
+    width: 1262px;
+    height: 610px;
+    border: 0px solid black;
+    background-image: url(../public/img/fondo\ 1.jpg);
+    background-size: cover;
+}
+
+.contenedor1 nav {
+    width: 720px;
+    height: 30px;
+    border: 0px solid black;
+    padding-top: 30px;
+    margin-left: 462px;
+}
+
+.contenedor1 li {
+    width: 150px;
+    height: 30px;
+    border: 0px solid black;
+    float: left;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 25px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.contenedor1 li:hover {
+    transform: scale(1.1);
+}
+
+.contenedor1 a {
+    text-decoration: none;
+    color: #5F5E5E;
+}
+
+.redes {
+    width: 60px;
+    height: 280px;
+    margin-left: 1202px;
+    border: 0px solid black;
+}
+
+.redes img {
+    width: 60px;
+    height: 60px;
+    border: 0px solid black;
+    margin-top: 20px;
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+}
+
+.redes img:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.texto {
+    width: 550px;
+    height: 200px;
+    border: 0px solid black;
+    margin-top: -110px;
+    margin-left: 600px;
+}
+
+.texto h1 {
+    width: 550px;
+    height: 50px;
+    border: 0px solid black;
+    font-size: 43px;
+    color: #384C53;
+}
+
+.stroke {
+    width: 187px;
+    height: 60px;
+    margin-top: 0px;
+    border: 0px solid black;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    -webkit-text-fill-color: #00BCFF;
+    -webkit-text-stroke: 2.7px #00BCFF;
+    font-size: 45px;
+    margin-left: 0px;
+}
+
+.texto h2 {
+    width: 190px;
+    height: 60px;
+    border: 0px solid black;
+    font-size: 43px;
+    color: #384C53;
+    margin-left: 190px;
+    margin-top: -59px;
+}
+
+.contenedor2 {
+    width: 1262px;
+    height: auto;
+    margin-top: -2px;
+    border: 0px solid black;
+}
+
+.NicaraguaParrafo h3 {
+    width: 1262px;
+    height: auto;
+    border: 0px solid black;
+    font-size: 45px;
+    color: #00BCFF;
+    padding-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.NicaraguaParrafo p {
+    width: 1230px;
+    height: auto;
+    padding-top: 10px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    -webkit-text-fill-color: #384C53;
+    -webkit-text-stroke: 1px #384C53;
+    border: 0px solid black;
+    text-align: center;
+}
+
+.DescubreParrafo {
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border: 0px solid black;
+}
+
+.DescubreParrafo h3 {
+    margin-top: auto;
+    padding-top: 30px;
+    width: 1262px;
+    text-align: center;
+    font-size: 49px;
+    color: #00BCFF;
+    height: 60px;
+    border: 0px solid black;
+}
+
+.Descubre img {
+    padding-top: 20px;
+    width: 110px;
+    margin-left: 200px;
+    height: 130px;
+    border: 0px solid black;
+}
+
+.Descubre {
+    border: 0px solid;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.Descubre p {
+    width: 200px;
+    height: 50px;
+    border: 0px solid black;
+    font-size: 22px;
+    margin-left: 156px;
+    text-align: center;
+    color: black;
+}
+
+.restaurante p {
+    padding-left: 17px;
+}
+
+.restaurante img {
+    /* width: 220px; */
+    margin-left: 210px;
+    height: 130px;
+}
+
+
+/* Seccion lugares */
+
+#ContenedorLugares h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: #00BCFF;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.raya {
+    width: 500px;
+    height: 2px;
+    background-color: #D5B233;
+    margin-left: 376px;
+}
+
+.imagenes {
+    margin-top: 20px;
+    width: 1262px;
+    display: flex;
+    height: 360px;
+    border: 0px solid black;
+}
+
+.imagenes figure {
+    border: 0px solid black;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 50px;
+    cursor: pointer;
+    box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+}
+
+.imagenes figure img {
+    border-radius: 4px;
+    width: 350px;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.imagenes figure .capa {
+    position: absolute;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    transition: all 50ms ease-out;
+    visibility: hidden;
+    text-align: center;
+    background-color: rgba(92, 92, 92, 0.5);
+}
+
+.capa p {
+    margin-left: 10px;
+}
+
+.imagenes figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.imagenes figure:hover img {
+    transform: scale(1.01);
+}
+
+.imagenes figure .capa p {
+    color: seashell;
+    font-weight: 400;
+    transition: all 50ms ease-out;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    font-size: 70px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px white;
+    width: 180px;
+    height: 400px;
+    text-align: left;
+    margin-top: 70px;
+}
+
+.ver-mas {
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 556px;
+    border: 0px;
+    background-color: #D6B12E;
+    font-size: 18px;
+    border-radius: 28px;
+    box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.45);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.ver-mas a {
+    color: white;
+    text-decoration: none;
+}
+
+.ver-mas:hover {
+    transform: scale(1.02);
+}
+
+
+/* Seccion medidas */
+
+.contenedor4 {
+    margin-top: -50px;
+}
+
+.Medidas {
+    margin-top: 20px;
+    display: flex;
+    height: 504px;
+    border: 0px solid black;
+}
+
+.MedidasCuidado {
+    width: 350px;
+    height: 500px;
+    border: 0px solid black;
+}
+
+.MedidasCuidado h4 {
+    margin-top: 5px;
+    color: #00BCFF;
+    font-size: 30px;
+    width: 631px;
+    height: 50px;
+    text-align: center;
+}
+
+.MedidasCuidado ol {
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.MedidasCuidado p {
+    width: 631px;
+    border: 0px solid black;
+    margin-top: 20px;
+    font-size: 32px;
+    text-decoration: underline;
+    text-align: center;
+    color: #00BCFF;
+}
+
+.MedidasCuidado img {
+    width: 100px;
+    height: 100px;
+    margin-left: 265.5px;
+}
+
+.Cannopy {
+    width: 631px;
+    height: 500px;
+    margin-left: 280px;
+    border: 0px solid black;
+    background-image: url(../public/img/canopy.jpg);
+    background-size: unset;
+}
+
+.Cannopy p {
+    width: 200px;
+    height: 400px;
+    margin-top: auto;
+    margin-left: 20px;
+    font-size: 70px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.4px white;
+}
+
+footer {
+    margin: -4px;
+    border: 0px solid black;
+    width: 1265px;
+    height: 70px;
+    background-color: #FFEDB6;
+}
+
+footer p {
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    -webkit-text-fill-color: #696A6A;
+    -webkit-text-stroke: 1.2px #696A6A;
+    padding-top: 25px;
+}
+
+
+/* Responsiveeeee */
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        background-size: auto;
+        background-image: url(../public/img/fondo\ 1.jpg);
+        background-repeat: no-repeat;
+        height: 365px;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 15px;
+        margin-left: 0px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 80px;
+        height: 19px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 56px;
+        height: 184px;
+        margin-left: 82%;
+    }
+    .texto {
+        width: 100%;
+        height: 66px;
+        margin-top: -66px;
+        margin-left: 0px;
+    }
+    .texto h1 {
+        width: 89%;
+        height: 43px;
+        font-size: 23px;
+        color: #384c53;
+    }
+    .stroke {
+        width: 100%;
+        height: 36px;
+        margin-top: -12px;
+        font-family: "Fira Sans Condensed", sans-serif;
+        -webkit-text-fill-color: #00bcff;
+        -webkit-text-stroke: 2.7px #00bcff;
+        font-size: 23px;
+        margin-left: 0px;
+    }
+    .texto h2 {
+        width: 100%;
+        height: 34px;
+        font-size: 23px;
+        color: #384c53;
+        margin-left: 105px;
+        margin-top: -34px;
+    }
+    .contenedor2 {
+        width: 100%;
+        height: 720px;
+        margin-top: -10px;
+    }
+    .NicaraguaParrafo h3 {
+        width: 100%;
+        height: 60px;
+        font-size: 45px;
+        color: #00bcff;
+        padding-top: 4px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .NicaraguaParrafo p {
+        width: 100%;
+        height: 260px;
+        padding-top: 10px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Fira Sans Condensed", sans-serif;
+        -webkit-text-fill-color: #384c53;
+        -webkit-text-stroke: 1px #384c53;
+    }
+    #ContenedorLugares h4 {
+        margin-top: 230px;
+        text-align: center;
+        font-size: 35px;
+        color: #00bcff;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .raya {
+        width: 92%;
+        height: 3px;
+        background-color: #d5b233;
+        margin-left: 11px;
+    }
+    .imagenes {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 11px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .ver-mas {
+        width: 150px;
+        height: 50px;
+        margin-top: 70px;
+        margin-left: 28%;
+        background-color: #d6b12e;
+        font-size: 18px;
+        border-radius: 28px;
+        box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.45);
+        transition: all 0.2s;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    .DescubreParrafo {
+        margin-top: 1344px;
+        margin-bottom: 100px;
+    }
+    .DescubreParrafo h3 {
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 49px;
+        color: #00bcff;
+        height: 60px;
+    }
+    .Descubre {
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Descubre img {
+        padding-top: 20px;
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .Descubre p {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        margin-left: 92px;
+        text-align: center;
+        color: black;
+    }
+    .restaurante img {
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .restaurante p {
+        padding-left: 0px;
+    }
+    .contenedor4 {
+        margin-top: -101px;
+        height: auto;
+        width: 100%;
+        margin-bottom: 86%;
+    }
+    .Medidas {
+        margin-top: 20px;
+        display: flex;
+        height: 504px;
+        flex-wrap: wrap;
+    }
+    .MedidasCuidado {
+        width: 100%;
+        height: 500px;
+    }
+    .MedidasCuidado h4 {
+        margin-top: 5px;
+        color: #00bcff;
+        font-size: 26px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+    }
+    .MedidasCuidado img {
+        width: 100px;
+        height: 100px;
+        margin-left: 32.5%;
+    }
+    .MedidasCuidado ol {
+        width: 95%;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .MedidasCuidado p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 32px;
+        text-decoration: underline;
+        text-align: center;
+        color: #00bcff;
+    }
+    .Cannopy {
+        margin-left: 0px;
+        background-image: url(../public/img/canopy.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .Cannopy p {
+        width: 200px;
+        height: 400px;
+        margin-top: -12px;
+        margin-left: 20px;
+        font-size: 68px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1.4px white;
+    }
+    footer {
+        margin: 0px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeeeeeeeee */
+
+@media only screen and (min-width: 414px) and (max-width: 453px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        background-size: auto;
+        background-image: url(../public/img/fondo\ 1.jpg);
+        background-repeat: no-repeat;
+        height: 365px;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 15px;
+        margin-left: 0px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 80px;
+        height: 19px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 56px;
+        height: 184px;
+        margin-left: 82%;
+    }
+    .texto {
+        width: 100%;
+        height: 66px;
+        margin-top: -66px;
+        margin-left: 11px;
+    }
+    .texto h1 {
+        width: 89%;
+        height: 43px;
+        font-size: 23px;
+        color: #384c53;
+    }
+    .stroke {
+        width: 100%;
+        height: 36px;
+        margin-top: -12px;
+        font-family: "Fira Sans Condensed", sans-serif;
+        -webkit-text-fill-color: #00bcff;
+        -webkit-text-stroke: 2.7px #00bcff;
+        font-size: 23px;
+        margin-left: 0px;
+    }
+    .texto h2 {
+        width: 100%;
+        height: 34px;
+        font-size: 23px;
+        color: #384c53;
+        margin-left: 105px;
+        margin-top: -34px;
+    }
+    .contenedor2 {
+        width: 100%;
+        height: 720px;
+        margin-top: -10px;
+    }
+    .NicaraguaParrafo h3 {
+        width: 100%;
+        height: 60px;
+        font-size: 45px;
+        color: #00bcff;
+        padding-top: 4px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .NicaraguaParrafo p {
+        width: 100%;
+        height: 260px;
+        padding-top: 10px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Fira Sans Condensed", sans-serif;
+        -webkit-text-fill-color: #384c53;
+        -webkit-text-stroke: 1px #384c53;
+    }
+    #ContenedorLugares h4 {
+        margin-top: 230px;
+        text-align: center;
+        font-size: 35px;
+        color: #00bcff;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .raya {
+        width: 92%;
+        height: 3px;
+        background-color: #d5b233;
+        margin-left: 38px;
+    }
+    .imagenes {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 34px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .imagenes figure img {
+        border-radius: 10px;
+        width: 350px;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    .ver-mas {
+        width: 150px;
+        height: 50px;
+        margin-top: 70px;
+        margin-left: 28%;
+        background-color: #d6b12e;
+        font-size: 18px;
+        border-radius: 34px;
+        box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.45);
+        transition: all 0.2s;
+        cursor: pointer;
+    }
+    .DescubreParrafo {
+        margin-top: 1344px;
+        margin-bottom: 100px;
+    }
+    .DescubreParrafo h3 {
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 49px;
+        color: #00bcff;
+        height: 60px;
+        margin-left: -23px;
+    }
+    .Descubre {
+        margin-top: 18px;
+        display: flex;
+        margin-left: 3%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Descubre img {
+        padding-top: 20px;
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .Descubre p {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        margin-left: 92px;
+        text-align: center;
+        color: black;
+    }
+    .restaurante img {
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .restaurante p {
+        padding-left: 0px;
+    }
+    .contenedor4 {
+        margin-top: -101px;
+        height: auto;
+        width: 100%;
+        margin-bottom: 86%;
+    }
+    .Medidas {
+        margin-top: 20px;
+        display: flex;
+        height: 504px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .MedidasCuidado {
+        width: 100%;
+        height: 500px;
+    }
+    .MedidasCuidado h4 {
+        margin-top: 5px;
+        color: #00bcff;
+        font-size: 26px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+    }
+    .MedidasCuidado img {
+        width: 100px;
+        height: 100px;
+        margin-left: 32.5%;
+    }
+    .MedidasCuidado ol {
+        width: 96%;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .MedidasCuidado p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 32px;
+        text-decoration: underline;
+        text-align: center;
+        color: #00bcff;
+    }
+    .Cannopy {
+        margin-left: 0px;
+        background-image: url(../public/img/canopy.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .Cannopy p {
+        width: 200px;
+        height: 400px;
+        margin-top: -12px;
+        margin-left: 20px;
+        font-size: 68px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1.4px white;
+    }
+    footer {
+        margin: 0px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeeeeeeeee */
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        background-size: auto;
+        background-image: url(../public/img/fondo\ 1.jpg);
+        background-repeat: no-repeat;
+        height: 365px;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 15px;
+        margin-left: -11px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 80px;
+        height: 19px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 56px;
+        height: 184px;
+        margin-left: 82%;
+    }
+    .texto {
+        width: 100%;
+        height: 66px;
+        margin-top: -66px;
+        margin-left: 0px;
+    }
+    .texto h1 {
+        width: 100%;
+        height: 43px;
+        font-size: 23px;
+        color: #384c53;
+    }
+    .stroke {
+        width: 100%;
+        height: 36px;
+        margin-top: -12px;
+        font-family: "Fira Sans Condensed", sans-serif;
+        -webkit-text-fill-color: #00bcff;
+        -webkit-text-stroke: 2.7px #00bcff;
+        font-size: 23px;
+        margin-left: 0px;
+    }
+    .texto h2 {
+        width: 100%;
+        height: 34px;
+        font-size: 23px;
+        color: #384c53;
+        margin-left: 105px;
+        margin-top: -34px;
+    }
+    .contenedor2 {
+        width: 100%;
+        height: 720px;
+        margin-top: -10px;
+    }
+    .NicaraguaParrafo h3 {
+        width: 100%;
+        height: auto;
+        font-size: 45px;
+        color: #00bcff;
+        padding-top: 4px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .NicaraguaParrafo p {
+        width: 100%;
+        height: 260px;
+        padding-top: 10px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Fira Sans Condensed", sans-serif;
+        -webkit-text-fill-color: #384c53;
+        -webkit-text-stroke: 1px #384c53;
+    }
+    #ContenedorLugares h4 {
+        margin-top: 230px;
+        text-align: center;
+        font-size: 35px;
+        color: #00bcff;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .raya {
+        width: 92%;
+        height: 3px;
+        background-color: #d5b233;
+        margin-left: 11px;
+    }
+    .imagenes {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 6px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .ver-mas {
+        width: 150px;
+        height: 50px;
+        margin-top: 70px;
+        margin-left: 28%;
+        background-color: #d6b12e;
+        font-size: 18px;
+        border-radius: 28px;
+        box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.45);
+        transition: all 0.2s;
+        cursor: pointer;
+    }
+    .DescubreParrafo {
+        margin-top: 1344px;
+        margin-bottom: 100px;
+    }
+    .DescubreParrafo h3 {
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 49px;
+        color: #00bcff;
+        height: 60px;
+    }
+    .Descubre {
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Descubre img {
+        padding-top: 20px;
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .Descubre p {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        margin-left: 92px;
+        text-align: center;
+        color: black;
+    }
+    .restaurante img {
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .restaurante p {
+        padding-left: 0px;
+    }
+    .contenedor4 {
+        margin-top: -101px;
+        height: auto;
+        width: 100%;
+        margin-bottom: 86%;
+    }
+    .Medidas {
+        margin-top: 20px;
+        display: flex;
+        height: 504px;
+        flex-wrap: wrap;
+    }
+    .MedidasCuidado {
+        width: 100%;
+        height: 500px;
+    }
+    .MedidasCuidado h4 {
+        margin-top: 5px;
+        color: #00bcff;
+        font-size: 26px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+    }
+    .MedidasCuidado img {
+        width: 100px;
+        height: 100px;
+        margin-left: 32.5%;
+    }
+    .MedidasCuidado ol {
+        width: 96%;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .MedidasCuidado p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 32px;
+        text-decoration: underline;
+        text-align: center;
+        color: #00bcff;
+    }
+    .Cannopy {
+        margin-left: 0px;
+        background-image: url(../img/canopy.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .Cannopy p {
+        width: 241px;
+        height: 325px;
+        margin-top: -12px;
+        margin-left: 20px;
+        font-size: 68px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1.4px white;
+    }
+    footer {
+        margin: 0px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* GUSTAVOOOOOOOOOOOOOOOO HP */
+
+@media only screen and (min-width: 285px) and (max-width: 359px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        width: 100%;
+        height: 494px;
+        background-image: url(../img/fondo\ 2.jpg);
+        background-size: cover;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 50px;
+        margin-left: 0;
+        margin-top: -10px;
+    }
+    .contenedor1 li {
+        width: 65px;
+        height: auto;
+        font-size: 13px;
+        margin-left: 4px;
+    }
+    .redes {
+        width: 60px;
+        height: auto;
+        margin-left: 82%;
+        margin-top: -12px;
+    }
+    .texto {
+        width: 100%;
+        height: 200px;
+        margin-top: -149px;
+        margin-left: 10px;
+    }
+    .texto h1 {
+        width: 89%;
+        height: 100px;
+        font-size: 38px;
+    }
+    .stroke {
+        width: 90%;
+        height: auto;
+        margin-top: 39px;
+        font-size: 37px;
+    }
+    .texto h2 {
+        width: 90%;
+        font-size: 38px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .contenedor2 {
+        width: 100%;
+        height: auto;
+        margin-top: -2px;
+    }
+    .NicaraguaParrafo h3 {
+        width: 100%;
+    }
+    .NicaraguaParrafo p {
+        width: 96%;
+        margin-left: 2%;
+    }
+    #ContenedorLugares {
+        width: 100%;
+        height: auto;
+        margin-top: 466px;
+    }
+    .raya {
+        width: 93%;
+        height: 3px;
+        background-color: #d5b233;
+        margin-left: 11px;
+    }
+    #ContenedorLugares h4 {
+        margin-top: 230px;
+        text-align: center;
+        font-size: 35px;
+        color: #00bcff;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .raya {
+        width: 92%;
+        height: 3px;
+        background-color: #d5b233;
+        margin-left: 11px;
+    }
+    .imagenes {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 0px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .imagenes figure img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    .ver-mas {
+        width: 150px;
+        height: 50px;
+        margin-top: 70px;
+        margin-left: 28%;
+        background-color: #d6b12e;
+        font-size: 18px;
+        border-radius: 28px;
+        box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.45);
+        transition: all 0.2s;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    .DescubreParrafo {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .DescubreParrafo h3 {
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 49px;
+        color: #00bcff;
+        height: 60px;
+    }
+    .Descubre {
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -43px;
+    }
+    .Descubre img {
+        padding-top: 20px;
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .Descubre p {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        margin-left: 92px;
+        text-align: center;
+        color: black;
+    }
+    .restaurante img {
+        width: 110px;
+        margin-left: 135px;
+        height: 130px;
+    }
+    .restaurante p {
+        padding-left: 0px;
+    }
+    .contenedor4 {
+        margin-top: -101px;
+        height: auto;
+        width: 100%;
+        margin-bottom: 79%;
+    }
+    .Medidas {
+        margin-top: 20px;
+        display: flex;
+        height: 504px;
+        flex-wrap: wrap;
+    }
+    .MedidasCuidado {
+        width: 100%;
+        height: 480px;
+    }
+    .MedidasCuidado h4 {
+        margin-top: 5px;
+        color: #00bcff;
+        font-size: 26px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+    }
+    .MedidasCuidado img {
+        width: 100px;
+        height: 100px;
+        margin-left: 32.5%;
+    }
+    .MedidasCuidado ol {
+        width: 96%;
+        margin-top: 10px;
+        margin-left: 16px;
+        font-size: 20px;
+    }
+    .MedidasCuidado p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 32px;
+        text-decoration: underline;
+        text-align: center;
+        color: #00bcff;
+    }
+    .Cannopy {
+        margin-left: 0px;
+        background-image: url(../public/img/canopy.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .Cannopy p {
+        width: 241px;
+        height: 325px;
+        margin-top: -12px;
+        margin-left: 20px;
+        font-size: 68px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1.4px white;
+    }
+    footer {
+        margin: 0px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}

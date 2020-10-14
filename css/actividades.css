@@ -1,0 +1,752 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contenedor-principal {
+    width: 1262px;
+    height: auto;
+}
+
+.contenedor1 {
+    margin-top: -12px;
+    width: 1262px;
+    height: 640px;
+    background-image: url(../img/prueba\ portada\ aventura.jpg);
+    background-size: cover;
+}
+
+.navegadores {
+    margin-top: -35px;
+}
+
+.contenedor1 nav {
+    width: 720px;
+    height: 30px;
+    padding-top: 30px;
+    margin-left: 462px;
+}
+
+.contenedor1 li {
+    width: 150px;
+    height: 30px;
+    float: left;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 25px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.contenedor1 li:hover {
+    transform: scale(1.1);
+}
+
+.contenedor1 a {
+    text-decoration: none;
+    color: white
+}
+
+.contenedor1 a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: white
+}
+
+.redes {
+    width: 60px;
+    height: 280px;
+    margin-left: 1202px;
+}
+
+.redes img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+}
+
+.redes img:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.contenedor1 h1 {
+    width: 760px;
+    height: 110px;
+    margin-top: -90px;
+    color: white;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.contenedor1 h2 {
+    width: 607px;
+    height: 110px;
+    margin-top: -35px;
+    color: white;
+    letter-spacing: .5px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.ContenedorAventuras {
+    width: 1261px;
+    height: auto;
+}
+
+.Actividades {
+    text-align: center;
+    width: 100%;
+    color: #D6B12E;
+    height: 40px;
+    font-size: 50px;
+}
+
+.imagenes {
+    margin-top: 20px;
+    width: 1261px;
+    display: flex;
+    /* height: 360px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagenes figure {
+    position: relative;
+    width: 329px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 50px;
+    cursor: pointer;
+    box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+}
+
+figure h2 {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    transition: 10ms ease-in-out;
+    width: 340px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding-left: 15px;
+}
+
+.imagenes figure img {
+    border-radius: 4px;
+    width: 350px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.imagenes figure .capa {
+    position: absolute;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    transition: all 50ms ease-out;
+    visibility: hidden;
+    text-align: center;
+    background-color: rgba(92, 92, 92, 0.5);
+}
+
+.capa p {
+    margin-left: 10px;
+}
+
+.imagenes figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+    transition: 50ms ease-in-out;
+}
+
+.imagenes figure:hover img {
+    transform: scale(1.01);
+}
+
+.imagenes figure .capa p {
+    color: seashell;
+    font-weight: 400;
+    transition: all 50ms ease-out;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    font-size: 25px;
+    -webkit-text-fill-color: white;
+    width: 310px;
+    height: 400px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+.contenedor3 {
+    margin-top: 40px;
+    width: 1262px;
+    height: 230px;
+}
+
+.contenedor3 h2 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #00BCFF;
+    font-size: 44px;
+    text-shadow: 0px 2px 1px #FFD447;
+}
+
+.Descubre1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Descubre1 img {
+    width: 110px;
+    height: 130px;
+}
+
+.restaurante p {
+    padding-left: 60px;
+}
+
+.Descubre1 p {
+    width: 110px;
+    height: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #FFEDB6;
+}
+
+footer p {
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    -webkit-text-fill-color: #696A6A;
+    -webkit-text-stroke: 1.2px #696A6A;
+    padding-top: 25px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: 550px;
+        background-image: url(../img/portada-actividades.jpg);
+        background-size: cover;
+        background-color: black;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 27px;
+        margin-left: 0px;
+    }
+    .contenedor1 li {
+        width: 80px;
+        height: 19px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 60px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 32px;
+    }
+    .contenedor1 h1 {
+        width: 90%;
+        height: 159px;
+        margin-top: -180px;
+        color: white;
+        margin-left: 5px;
+        letter-spacing: 1px;
+        font-size: 50px;
+    }
+    .contenedor1 h2 {
+        width: 90%;
+        height: 110px;
+        margin-top: -24px;
+        color: white;
+        letter-spacing: .5px;
+        margin-left: 5px;
+        font-size: 50px;
+        margin-top: -23px;
+    }
+    .ContenedorAventuras {
+        width: 100%;
+        height: auto;
+    }
+    .imagenes {
+        margin-top: 130px;
+        width: 100%;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 30px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+    .imagenes figure .capa p {
+        color: seashell;
+        font-weight: 400;
+        transition: all 50ms ease-out;
+        margin-bottom: 120px;
+        margin-top: 30px;
+        font-size: 25px;
+        -webkit-text-fill-color: white;
+        width: 79%;
+        height: 400px;
+        text-shadow: 1px 1px black;
+        text-align: center;
+    }
+    .contenedor3 {
+        margin-top: 1810px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeeeeee */
+
+@media only screen and (min-width: 414px) and (max-width: 453px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: 550px;
+        background-image: url(../img/portada-actividades.jpg);
+        background-size: cover;
+        background-color: black;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 27px;
+        margin-left: 0px;
+    }
+    .contenedor1 li {
+        width: 80px;
+        height: 19px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 60px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 32px;
+    }
+    .contenedor1 h1 {
+        width: 88%;
+        height: auto;
+        margin-top: -180px;
+        color: white;
+        margin-left: 15px;
+        letter-spacing: 1px;
+        font-size: 50px;
+    }
+    .contenedor1 h2 {
+        width: 90%;
+        height: auto;
+        color: white;
+        letter-spacing: .5px;
+        margin-left: 15px;
+        font-size: 50px;
+        margin-top: -23px;
+    }
+    .ContenedorAventuras {
+        width: 100%;
+        height: auto;
+    }
+    .imagenes {
+        margin-top: 130px;
+        width: 100%;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 43px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+    .contenedor3 {
+        margin-top: 1810px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeeeeee */
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: 550px;
+        background-image: url(../img/portada-actividades.jpg);
+        background-size: cover;
+        background-color: black;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 27px;
+        margin-left: 0px;
+    }
+    .contenedor1 li {
+        width: 80px;
+        height: 19px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 60px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 32px;
+    }
+    .contenedor1 h1 {
+        width: 90%;
+        height: 159px;
+        margin-top: -180px;
+        color: white;
+        margin-left: 5px;
+        letter-spacing: 1px;
+        font-size: 50px;
+    }
+    .contenedor1 h2 {
+        width: 90%;
+        height: 110px;
+        margin-top: -24px;
+        color: white;
+        letter-spacing: .5px;
+        margin-left: 5px;
+        font-size: 50px;
+        margin-top: -23px;
+    }
+    .ContenedorAventuras {
+        width: 100%;
+        height: auto;
+    }
+    .imagenes {
+        margin-top: 130px;
+        width: 100%;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 30px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+    .imagenes figure .capa p {
+        color: seashell;
+        font-weight: 400;
+        transition: all 50ms ease-out;
+        margin-bottom: 120px;
+        margin-top: 30px;
+        font-size: 25px;
+        -webkit-text-fill-color: white;
+        width: 79%;
+        height: 400px;
+        text-shadow: 1px 1px black;
+        text-align: center;
+    }
+    .contenedor3 {
+        margin-top: 1810px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+
+/* Responsiveeeeeeeeeeeeeeee */
+
+@media only screen and (min-width: 285px) and (max-width: 359px) {
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        width: 100%;
+        height: 550px;
+        background-image: url(../img/prueba\ portada\ aventura1.jpg);
+        background-size: cover;
+        background-color: black;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 23px;
+        margin-left: -14px;
+    }
+    .contenedor1 li {
+        width: 65px;
+        height: 17px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 6px;
+        list-style: none;
+        list-style-type: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 60px;
+        height: 160px;
+        margin-left: 82%;
+        margin-top: 45px;
+    }
+    .contenedor1 h1 {
+        width: 90%;
+        margin-top: -100px;
+        height: auto;
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    .contenedor1 h2 {
+        width: 90%;
+        height: auto;
+        color: white;
+        text-shadow: 1px 1px hsl(0, 0%, 0%, .5);
+        margin-left: 10px;
+        margin-top: -25px;
+        font-size: 40px;
+    }
+    .ContenedorAventuras {
+        width: 100%;
+        height: auto;
+    }
+    .Actividades {
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+    }
+    .imagenes {
+        margin-top: 35px;
+        width: 100%;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 30px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+    figure h2 {
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        transition: 10ms ease-in-out;
+        width: 100%;
+        font-size: 57px;
+        color: white;
+        text-shadow: 1px 1px black;
+        padding-left: 0px;
+    }
+    .imagenes figure .capa p {
+        color: seashell;
+        font-weight: 400;
+        transition: all 50ms ease-out;
+        margin-bottom: 120px;
+        margin-top: 30px;
+        font-size: 21px;
+        -webkit-text-fill-color: white;
+        width: 56%;
+        height: 400px;
+        text-shadow: 1px 1px black;
+        text-align: center;
+    }
+    .contenedor3 {
+        margin-top: 1798px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}

@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Departamentos.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>     -->
+
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Clima">
+    <link rel="apple-touch-icon" href="../public/images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una simple pagina web de turismo">
+    <meta name="theme-color" content="#000" />
+    <title>Nueva Segovia</title>
+</head>
+
+<body>
+    <section class="ContenedorPrincipal">
+        <section class="contenedor1">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Hoteles.html">Hoteles</a></li>
+                    <li><a href="Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Aventuras.html">Aventuras</a></li>
+                </ul>
+            </nav>
+            <div class="redes">
+                <a href=""><img src="img/fb.png" alt="" /></a>
+                <a href=""><img src="img/ig.png" alt="" /></a>
+                <a href=""><img src="img/gg.png" alt="" /></a>
+            </div>
+
+            <div class="historia">
+                <h1>Historia de Nueva Segovia</h1>
+                <p>
+                    De 3,491 km²; antes de la Guerra Nacional, en 1856, abarcaba toda la zona norte. El árbol de pino es representativo; su café es referencia internacional; su música folclórica es conocida a nivel nacional; sus paisajes son potenciales turísticos; la gente
+                    de sus 12 municipios es hospitalaria.
+                </p>
+            </div>
+        </section>
+
+        <section class="contenedor2">
+            <h2>Lugares para visitar en Nueva Segovia</h2>
+            <div class="tarjetas">
+                <img src="img/san juan 0.jpg" alt="Imagen de leon" />
+                <p>Santuario Virgen de la Piedra.</p>
+                <button class="leerMas" type="button" data-toggle="modal" data-target="#myModal">
+            Leer mas.
+          </button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Santuario Virgen de la Piedra.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/san juan 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/san juan 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/san juan 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Santuario Virgen de la Piedra.?</h4>
+                                    <p>
+                                        Se ubica en el casco urbano de Dipilto. La imagen de la Virgen de Guadalupe fue empotrada en la roca en 1947, cuando el municipio era azotado por una rara enfermedad similar a la lepra, y desde que la imagen fue colocada allí comenzaron a orar y a recibir
+                                        favores. El santuario cuenta con un pozo de agua bendita, tiene una variada vegetación que lo convierte en un oasis de paz. Otra de las opciones que ofrece es el mirador Cruz de la Fe, desde donde disfrutarás de
+                                        una hermosa vista panorámica del pueblo y sentirás el viento fresco como una caricia divina.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/peña de la cruz 0.jpg" alt="Imagen de leon" />
+                <p>Loma Santa Mozonte.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Loma Santa Mozonte.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/peña de la cruz 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/peña de la cruz 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/peña de la cruz 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Loma Santa Mozonte?</h4>
+                                    <p>
+                                        Para llegar a este sitio tendrás que escalar más de 250 gradas, en la cima se ubica una capilla y un altar en honor a la Virgen de Guadalupe. Desde este punto podrás observar hermosas vistas panorámicas del pueblo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/apanas 0.jpg" alt="Imagen de leon" />
+                <p>Iglesia Ciudad Antigua.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal3">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Iglesia Ciudad Antigua.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/apanas 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/apanas 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/apanas 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la Iglesia Ciudad Antigua?</h4>
+                                    <p>
+                                        Ciudad Antigua, con más de cuatro siglos de historia, fue fundada en 1543. Es considera la tercera ciudad colonial establecida en Nicaragua, después de Granada y León. Destruida y saqueada por piratas ingleses y franceses en 1654 y en 1668. La iglesia
+                                        en su interior alberga imágenes religiosas coloniales del siglo pasado que fueron traídos desde España, entre ellos se destacan la imagen del Señor de los Milagros, escultura tallada en madera, elaborada en España
+                                        y traída en 1664 y la Virgen de la Inmaculada Concepción. Esta iglesia conserva el altar mayor de estilo barroco y la pila bautismal tallada en piedra y elaborada en 1625.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/bosawas 0.jpg" alt="Imagen de leon" />
+                <p>Casa Museo Santa María.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Casa Museo Santa María.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/bosawas 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/bosawas 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/bosawas 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Museo Santa Maria de los Rivas?</h4>
+                                    <p>
+                                        Joya arquitectónica, un reencuentro con la época colonial. Aquí podrá observar un sinnúmero de imágenes religiosas. Esta casa tiene cuatro salas, un comedor principal, una capilla para bodas, 12 habitaciones que representan los 12 apóstoles, entre otras
+                                        decoraciones. Conoce este paraíso religioso, hay jardines, nacimientos, capilla, imágenes, museo, historia y hasta hospedería y restaurante. Se ubica en el municipio de Ocotal.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/archipielago.jpg" alt="Imagen de leon" />
+                <p>Mineral de San Albino.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal1">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Mineral de San Albino.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/archipielago 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/archipielago 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/archipielago 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Mineral de San Albino, El Jicaro?</h4>
+                                    <p>
+                                        Sitio histórico de gran relevancia nacional, por ser el sitio de la más célebre proclama antiimperialista del General Augusto C. Sandino. Aún se conservan vestigios de lo que fue la mina. Fue declarada Patrimonio Histórico Nacional en 1983. Está localizada
+                                        a 4 kms. al suroeste de la cabecera municipal, a orillas del río El Jícaro.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/salto la estanzuela 0.jpg" alt="Imagen de leon" />
+                <p>Las Pilitas.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal1">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Las Pilitas.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/salto la estanzuela 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/salto la estanzuela 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/salto la estanzuela 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué son Las Pilitas?</h4>
+                                    <p>
+                                        Balneario Natural Las Pilitas, un atractivo turístico ubicado en Mozonte Nueva Segovia, resalta con sus 7 piscinas rocosas, las que forman pequeñas cascadas. Está rodeado de sacuanjoches, nuestra flor nacional, y sobrevuela sobre este paraíso natural,
+                                        el Guardabarranco. Cerca del sitio se encuentra una finca de café y ganadería. El camino para llegar está en buenas condiciones.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/jalacate 0.jpg" alt="Imagen de leon" />
+                <p>Aguas Termales Delia.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Aguas Termales Delia.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/jalacate 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/jalacate 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/jalacate 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué son Las Aguas Termales Delia?</h4>
+                                    <p>Este centro turístico está ubicado en el kilómetro 12 de la carretera Ocotal-Macuelizo. Una fuente de agua a la que se le atribuye poderes curativos, que convergen en una corriente que vierte en el río Macuelizo. El
+                                        sitio está acondicionado para el turismo y en sus alrededores se encuentra vegetación y fauna exuberante que invita a la exploración.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/miraflor 0.jpg" alt="Imagen de leon" />
+                <p>Aguas Termales Don Alfonso.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal3">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Aguas Termales Don Alfonso.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/miraflor 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/miraflor 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/miraflor 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué son las Aguas Termales Don Alfonso?</h4>
+                                    <p>
+                                        Se ubican en el límite de los municipios de El Jícaro, Jalapa y San Fernando. En este sitio encontrarás rocas de granito, piedras preciosas de mármol y un montículo de roca granítica natural, el que posee una pendiente de donde sale agua filtrada en estilo
+                                        fuente. Cuenta con Piscinas con temperaturas reguladas. Piscina especial para uso de personas con capacidades diferentes. Sauna al aire libre. Se ubica en el sector rural, a 2 kilómetros aproximadamente de la comunidad
+                                        Aranjuez.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/tisey 0.jpg" alt="Imagen de leon" />
+                <p>Cerro Mogoton.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Cerro Mogoton.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/tisey 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/tisey 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/tisey 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Cerro Mogoton?</h4>
+                                    <p>
+                                        El mirador Cerro Mogotón, es el punto más alto de la geografía nacional, es una montaña en la frontera entre Nicaragua y Honduras. En la parte nicaragüense se halla en la cordillera volcánica Dipilto y Jalapa. Escalar su cumbre constituye un reto para
+                                        los más aventureros y los amantes de la naturaleza, pero la vista que ofrece compensa todos los esfuerzos. Para hacer este recorrido turístico, de seis horas de duración hasta el punto más alto, se debe hacer uso
+                                        de transporte 4×4.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/museo esteli 0.jpg" alt="Imagen de leon" />
+                <p>Cañon Cerros Pegados.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal5">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal5" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Cañon Cerros Pegados.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/museo esteli 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/museo esteli 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/museo esteli 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Cañon Cerros Pegados?</h4>
+                                    <p>
+                                        Aventúrate a recorrer el cañón de los Cerros Pegados, interesante formación rocosa en el caudal de Quebrada Onda que se origina desde las cercanías del casco urbano del municipio de Santa María. Aquí verás grandes rocas superpuestas naturalmente y dejando
+                                        espacios pequeños para el acceso a la parte baja del cañón ocupada por remansos de agua en la roca del suelo. En la parte alta puedes disfrutar vistas panorámicas de los países de Honduras y Nicaragua. En este sitio
+                                        se encuentra restos de un santuario precolombino. El sitio está ubicado a 6.61 kilómetros del casco urbano, se puede transportar en vehículo propio a la entrada de este sitio, luego se continúa a pie.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="contenedor3">
+            <h2>Tal vez esto tambien te interese:</h2>
+            <div class="Descubre1">
+                <div>
+                    <a href="">
+                        <img src="img/hotel1.png" alt="Icono de un hotel" class="img1" /></a>
+                    <p>Hoteles</p>
+                </div>
+
+                <div class="">
+                    <a href="">
+                        <img src="img/restaurantes1.png" alt="Icono de un restaurante" class="img2" /></a>
+                    <p class="texto-restaurante">Restaurantes</p>
+                </div>
+
+                <div class="correr">
+                    <a href=""><img src="img/Actividades1.png" alt="Icono de lugares" class="img3" /></a>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrigth &copy; 2020 by Team Awesome</p>
+        </footer>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

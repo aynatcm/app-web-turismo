@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Departamentos.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>     -->
+
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Clima">
+    <link rel="apple-touch-icon" href="../public/images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una simple pagina web de turismo">
+    <meta name="theme-color" content="#000" />
+    <title>León</title>
+</head>
+
+<body>
+    <section class="ContenedorPrincipal">
+        <section class="contenedor1">
+            <nav class="navegadores">
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Hoteles.html">Hoteles</a></li>
+                    <li><a href="Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Aventuras.html">Aventuras</a></li>
+                </ul>
+            </nav>
+
+            <div class="redes">
+                <a href=""><img src="img/fb.png" alt="" /></a>
+                <a href=""><img src="img/ig.png" alt="" /></a>
+                <a href=""><img src="img/gg.png" alt="" /></a>
+            </div>
+
+
+            <div class="historia">
+                <h1>Historia de leon</h1>
+                <p>
+                    Una ciudad donde abundan arquitecturas coloniales de interés, destacando, un amplio despliegue de iglesias y capillas barrocas, entre las cuales se impone la insigne y real basílica catedral, declarada patrimonio de la humanidad por Unesco. En sus alrededores
+                    destacan las Ruinas de León Viejo, una de las primeras ciudades coloniales españolas del continente, sepultada por años bajo las cenizas del Volcán Momotombo. Complementan los atractivos de sus entornos, hermosos escenarios naturales,
+                    entre los que figuran la Cordillera de Los Maribios con su conjunto de volcanes y las playas de Poneloya y Las Peñitas hacia el Océano Pacífico
+
+                </p>
+            </div>
+        </section>
+
+
+        <section class="contenedor2">
+            <h2>Lugares para visitar en leon.</h2>
+            <div class="tarjetas">
+                <img src="img/ruinas de leon viejo.jpg" alt="Imagen de leon">
+                <p>Ruinas de León Viejo.</p>
+                <button class="leerMas" type="button" data-toggle="modal" data-target="#myModal">Leer mas.</button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Ruinas de León Viejo.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/ruina 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/ruina 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/ruina 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué son las Ruinas de León Viejo?</h4>
+                                    <p>"Ruinas de León Viejo, también llamado León Viejo es el lugar donde originalmente se fundó la ciudad de León ubicado en la comarca de Puerto Momotombo (puerto lacustre en el lago de Managua), municipio de La Paz Centro,
+                                        departamento de León, localizado en Nicaragua, Centroamérica. Por los constantes sismos causados por el volcán Momotombo y dificultades socio económicas, sus pobladores luego de un cabildo, decidieron abandonarla
+                                        para asentarla en otro sitio cercano al pueblo indígena de Sutiaba, hoy Santiago de los Caballeros de León."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/basilicca.jpg" alt="Imagen de leon">
+                <p>Catedral de la Asunción.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal1">Leer mas.</button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Catedral de la Asuncion</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/basilica1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/basilica 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/basilica 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la Basilica Catedral de la Asunción?</h4>
+                                    <p>"La Catedral de León, también conocida como Basílica Catedral de la Asunción de León, y "Catedral de la luz", cuyo nombre oficial es Insigne y Real Basílica Catedral de la Asunción de la Bienaventurada Virgen María,
+                                        es una catedral de construcción barroca colonial ubicada en la ciudad de León, Departamento de León, Nicaragua. En León Viejo tuvo los nombres de "Nuestra Señora de la Piedad" y "Nuestra Señora de la Gracia". "</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tarjetas">
+                <img src="img/museo ruben dario.jpg" alt="Imagen de leon">
+                <p>Museo archivo Ruben Dario.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">Leer mas.</button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Museo Archivo Rubén Darío.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/museo 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/museo 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/museo 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el museo archivo de ruben dario?</h4>
+                                    <p>"Los objetos personales de Rubén Darío, el poeta más afamado de Nicaragua, se pueden observar dentro de una de las casas en la que este poeta vivió durante 14 años, en la ciudad colonial de León. El museo, activo desde
+                                        1964, todavía posee su diseño y decoración colonial, con un amplio patio interno y varias habitaciones alrededor. La historia de Darío está descrita en sus paredes y algunas de sus pertenencias, tales como su cama,
+                                        Biblia y escrituras están en exhibición, repartiodos en las diferentes habitaciones. La Universidad Nacional Autónoma de Nicaragua (UNAN-León) es el encargado de conservar el buen estado del establecimiento."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/iglesia zaragosa.jpg" alt="Imagen de leon">
+                <p>Iglesia de Zaragoza.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal3">Leer mas.</button>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Iglesia de Zaragoza.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/zaragoza 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/zaragoza 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/zaragoza 3.JPG" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la iglesia de zaragoza?</h4>
+                                    <p>"La iglesia Zaragoza está localizada en el vecindario con el mismo nombre, a unas cuadras al noroeste del parque central. No se sabe la fecha exacta de la construcción, pero se estima que comenzó entre los años 1884
+                                        y 1886 y finalizó en 1934. La iglesia es una verdadera mezcla de diferentes estilos arquitectónicos. No solo tiene un estilo ecléctico y romántico, pero sino que también se puede apreciar ciertos elementos militares.
+                                        Así mismo, las altas torres, construidas con piedras talladas, y los pilares le dan a la iglesia una imagen de castillo.."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/la recoleccion.jpg" alt="Imagen de leon">
+                <p>La Recolección.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">Leer mas.</button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Iglesia la Recolección.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/recoleccion 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/recoleccion 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/recoleccion 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la iglesia de la recoleccion?</h4>
+                                    <p>"La construcción de la iglesia La Recolección comenzó el 5 de diciembre de 1785. Casi un siglo después en 1880, se construyó otro edificio al lado de la Iglesia: El Colegio la Recolección. La Iglesia está ubicada en
+                                        la calle de los Bancos, una calle muy ocupada albergando en sus orillas a muchos bancos (he de aquí su nombre). Es un edificio notable debido a su altura, estructura y color. Puede ser fácilmente reconocido al apreciar
+                                        la ciudad desde el techo de la catedral. La fachada de la iglesia tiene un estilo barroco mexicano. La iglesia tiene un color amarillo intenso. Los altares están decorados con un estilo neoclá." </p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tarjetas">
+                <img src="img/iglesia laborio.jpg" alt="Imagen de leon">
+                <p>Iglesia de Laborío.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal6">  Leer mas. </button>
+                <div class="modal fade" id="myModal6" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Iglesia de Laborío.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/laborio 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/laborio 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/laborio 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es la iglesia de laborío?</h4>
+                                    <p>"El vecindario de la iglesia del Laborio fue construido en el siglo XVII, pero no se conoce la fecha exacta de construcción. La fachada que se aprecia actualmente es completamente distinta a su primera fachada, pero
+                                        la parte principal del presbiterio se ha mantenido inalterada. Se puede distinguir el estilo colonial en su fachada. Sin embargo, otros elementos, muestran una influencia neoclásica y ecléctica."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tarjetas">
+                <img src="img/cerro negro.jpg" alt="Imagen de leon">
+                <p>Volcán Cerro Negro.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal7">  Leer mas. </button>
+                <div class="modal fade" id="myModal7" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Volcan cerro negro.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/cerro 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/cerro 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/cerro 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el volcan cerro negro?</h4>
+                                    <p>"El Cerro Negro es un volcán ubicado en el departamento de León, Nicaragua, a 25 kilómetros al este de la cabecera departamental del mismo nombre y tiene 726 metros de altura sobre el nivel del mar. Su nombre proviene
+                                        de su color; y surgió hace un siglo y medio al ras de la llanura. ."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/volcan telica.jpg" alt="Imagen de leon">
+                <p>Volcán Telica.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal8">  Leer mas. </button>
+                <div class="modal fade" id="myModal8" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Volcan Telica.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/telica 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/telica 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/telica 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el volcan Telica?</h4>
+                                    <p>"El Telica es un volcán ubicado en el departamento de León, Nicaragua.1​ Se ubica en la Cordillera de los Maribios; tiene 1060 metros de altura sobre el nivel del mar. Se llama así por estar cerca del municipio del
+                                        mismo nombre. Es un cono cinerítico complejo de varios cráteres superpuestos, el más reciente de los cuales ha estado lanzando esporádicas lluvias de arenas en forma intermitente. Los piroclastos oxidados que recubren
+                                        las faldas del volcán le dan un color herrumbroso. las laderas carentes de vegetación están socavadas por profundad cárcavas, como si una gigantesca zarpa hubiera arañado las pendientes del volcán."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tarjetas">
+                <img src="img/volcan el hoyo.jpg" alt="Imagen de leon">
+                <p>Volcán el Hoyo.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal9">  Leer mas. </button>
+                <div class="modal fade" id="myModal9" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Volcan el hoyo.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators8" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/hoyo 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/hoyo 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/hoyo 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators8" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el volcan el hoyo?</h4>
+                                    <p>"El Hoyo es un complejo volcánico formado por varias estructuras. El primer volcán se llama El Picachu; después de estar activo, este volcán colapsó formando otras estructuras volcánicas. Actualmente, la más significativa
+                                        es el Volcán El Hoyo. Éste se puede distinguir por un hoyo localizado en una de sus faldas, en lugar de estar ubicado en la cima. Subir este volcán es posible, pero no se hace con frecuencia. El área está ligeramente
+                                        poblada y no hay una carretera que lleve a la base del volcán; es más fácil llegar a caballo."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/volcan momotombo.jpg" alt="Imagen de leon">
+                <p>Volcán Momotombo.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal10">  Leer mas. </button>
+                <div class="modal fade" id="myModal10" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Volcan Momotombo.</h4>
+                            </div>
+                            <div class="container">
+
+                                <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators9" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/momotombo 1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/momotombo 2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/momotombo 3.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el volcan Momotombo?</h4>
+                                    <p>"Momotombo (cuyo significado es gran cumbre herviente) es un volcán nicaragüense situado en el departamento de León, cerca del pueblo de Puerto Momotombo, tras la ribera del lago Xolotlán. Se alza 1.297 metros sobre
+                                        el nivel del mar y es un volcán relativamente joven, con unos 4.500 años de edad. Durante una erupción el 11 de enero de 1610 causó la destrucción del poblado español fundado por Francisco Hernández de Córdoba y
+                                        cuyas ruinas se conocen como León Viejo. Sus pobladores decidieron entonces trasladar el asentamiento, originando la actual ciudad de León."</p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contenedor3">
+
+            <h2>Tal vez esto tambien te interese:</h2>
+            <div class="Descubre1">
+                <div>
+                    <a href=""> <img src="img/hotel1.png" alt="Icono de un hotel" class="img1"></a>
+                    <p>Hoteles</p>
+                </div>
+
+                <div class="">
+                    <a href=""> <img src="img/restaurantes1.png" alt="Icono de un restaurante" class="img2"></a>
+                    <p class="texto-restaurante">Restaurantes</p>
+                </div>
+
+                <div class="correr">
+                    <a href=""><img src="img/Actividades1.png" alt="Icono de lugares" class="img3"></a>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrigth &copy; 2020 by Team Awesome </p>
+        </footer>
+
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>

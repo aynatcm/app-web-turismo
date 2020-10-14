@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Departamentos.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>     -->
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Clima">
+    <link rel="apple-touch-icon" href="../public/images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una simple pagina web de turismo">
+    <meta name="theme-color" content="#000" />
+    <title>Racn</title>
+</head>
+
+<body>
+    <section class="ContenedorPrincipal">
+        <section class="contenedor1">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Hoteles.html">Hoteles</a></li>
+                    <li><a href="Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Aventuras.html">Aventuras</a></li>
+                </ul>
+            </nav>
+            <div class="redes">
+                <a href=""><img src="img/fb.png" alt="" /></a>
+                <a href=""><img src="img/ig.png" alt="" /></a>
+                <a href=""><img src="img/gg.png" alt="" /></a>
+            </div>
+
+            <div class="historia">
+                <h1>Historia de Racn.</h1>
+                <p>
+                    Ubicada en una gran planicie con sus municipios Waspán, Rosita Prinzapolka, Bonanza, Siuna, Puerto Cabezas, Waslala y Mulukuku, se caracteriza por la existencia de montañas cuya alturas máxima son los 30mts sobre el nivel del mar, región selvática, con
+                    cultura multiétnica, en muchas de estas comunidades aún mantienen su forma ancestral de gobierno comunal encabezado por el Consejo de Ancianos. Sus costas son ricas en biodiversidad marina como los arrecifes coralinos de color rojo,
+                    La Reserva Biológica de Cayos Miskitus y la franja costera.
+                </p>
+            </div>
+        </section>
+
+        <section class="contenedor2">
+            <h2>Lugares para visitar en Raan</h2>
+            <div class="tarjetas">
+                <img src="img/puerto cabezas 0.jpg" alt="Imagen de leon" />
+                <p>Puerto Cabezas.</p>
+                <button class="leerMas" type="button" data-toggle="modal" data-target="#myModal">
+            Leer mas.
+          </button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Puerto Cabezas.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/puerto cabezas 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/puerto cabezas 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/puerto cabezas 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Puerto Cabezas.?</h4>
+                                    <p>
+                                        Puerto Cabezas a 560 kilómetros de la capital fue una aldea indígena con el nombre de Bilwi “Serpiente entre hojas”, poco habitada, con casuchas de paja, bambú y estructuras de madera de pino, sin producción, sin economía, con sus costumbres ancestrales,
+                                        a partir de 1921 comienza a desarrollarse como ciudad y elevada a la misma el 15 de Abril del año 1929 a raíz del triunfo de la Revolución Liberal Constitucionalista. En Bilwi tiene sitios de interés turísticos
+                                        como: Como el balneario la Bocana, El Mirador del Restaurante Kabupayasca, localizados al noreste de la ciudad de Bilwi donde el visitante podrá disfrutar de una vista muy hermosa del mar caribe, también se puede
+                                        visitar las playas del balneario de Tuapi donde el visitante disfruta de la tranquilidad del río y de la calma de las montañas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/prinzapolka 0.jpg" alt="Imagen de leon" />
+                <p>Prinzapolka.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal2">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Prinzapolka.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/prinzapolka 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/prinzapolka 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/prinzapolka 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es Prinzapolka?</h4>
+                                    <p>
+                                        Prinzapolka fundado en 1860 por Manyagnas indígenas expulsados de su comunidad de Wankluna por los indios Miskitus, pintoresco pueblo, de clima húmedo y caluroso, donde sus habitantes se dedican a la pesca, en la mitad del siglo XX fue la puerta de entrada
+                                        y salida de mercancías al interior de la región. Se localiza en la barra del río, tradicionalmente funciona como puerto de salida de los productos de la región como: banano, metales, hule y maderas preciosas. Desde
+                                        el empalme de Siuna-Rosita y en medio de una llanura de pinares se llega a Alamikamba, a orillas del rio Prinzapolka en un recorrido de 100 kilómetros, se pasa por unas 36 comunidades Miskitus. Circundante a Prinzapolka
+                                        se encuentran dos caseríos palafisticos: El Masmalaya y Walpa Tara.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/king 0.jpg" alt="Imagen de leon" />
+                <p>King Pulanka.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal3">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    King Pulanka.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/king 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/king 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/king 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es King Pulanka?</h4>
+                                    <p>
+                                        La celebración del King Pulanka es una tradición sociocultural del pueblo Miskitu, tradicionalmente se celebra en los meses de Enero a Marzo en los diferentes sectores territoriales y barrios del municipio de Puerto Cabeza, actividad cultural que se celebra
+                                        con el objetivo de mantener la identidad de nuestros ancestros, en donde las comunidades expresan el sentido cultural de sus antepasados y con el ánimo de fortalecer este valor cultural, mediante el intercambio
+                                        de experiencias con otras comunidades. Entre las comunidades, se eligen a los grupos que realizaron la mejor presentación por sectores o bloques territoriales, los grupos destacados participan con sus presentaciones
+                                        en el King Pulanka Municipal.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjetas">
+                <img src="img/cayos 0.jpg" alt="Imagen de leon" />
+                <p>Cayos Miskitos.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal4">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal4" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Cayos Miskitos.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/cayos 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/cayos 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/cayos 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué son Cayos Miskitos?</h4>
+                                    <p>
+                                        El Archipiélago se localiza a 80 kilómetros al noroeste de Bilwi, sus extraordinarias aguas de color turquesa permite apreciar los, bancos de hierbas submarinas, están enclavado en pleno Mar Caribe, en un área de 40 kilómetros, está rodeado de arrecifes
+                                        coralinos, y ubicado sobre una plataforma marina poco profunda con una afloración coralina cubierta de manglares que rodean la laguna de agua semidulce o salobre. El núcleo del archipiélago lo integran más de 70
+                                        islotes de coral de diversos tamaños. El fondo marino de los Cayos Miskitus son los paisajes oceánicos más bellos de todo el Caribe.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tarjetas">
+                <img src="img/rio coco 0.jpg" alt="Imagen de leon" />
+                <p>Rio Coco.</p>
+                <button class="leerMas" data-toggle="modal" data-target="#myModal1">
+            Leer mas.
+          </button>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Rio Coco.
+                                </h4>
+                            </div>
+                            <div class="container">
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <!-- Your controls -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Your slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/rio coco 1.jpg" alt="First slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/rio coco 2.jpg" alt="Second slide" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/rio coco 3.jpg" alt="Third slide" />
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                                <div class="texto-modal">
+                                    <h4>¿Qué es el Rio Coco?</h4>
+                                    <p>
+                                        Ciudad ubicada a orillas del Río Coco, poblada por Miskitus y con más de 80 comunidades indígenas situadas a lo largo del río y sobre la costa. En la zona de Waspám se localiza la gran Laguna de Bihmuna, junto al mar, rodeado de manglares, con una rica
+                                        fauna de aves, cocodrilos y otros animales, casi en un ambiente virgen. Bihmuna se conecta con el Mar Caribe por el estrecho canal de Turku. Su clima es propio de la selva húmeda tropical monzónico y en su sistema
+                                        hidrográfico se destaca el Río Coco el más extenso de Nicaragua. Su clima es de selva húmeda tropical monzónico. Cruza dos formaciones importantes: las de la selva tropical húmeda y la de los llanos, esta última
+                                        de cubierta vegetal de pinos (pinus caribean).
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-close" data-dismiss="modal">
+                    Close
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contenedor3">
+            <h2>Tal vez esto tambien te interese:</h2>
+            <div class="Descubre1">
+                <div>
+                    <a href="Hoteles.html">
+                        <img src="img/hotel1.png" alt="Icono de un hotel" class="img1" /></a>
+                    <p>Hoteles</p>
+                </div>
+
+                <div class="">
+                    <a href="">
+                        <img src="img/restaurantes1.png" alt="Icono de un restaurante" class="img2" /></a>
+                    <p class="texto-restaurante">Restaurantes</p>
+                </div>
+
+                <div class="correr">
+                    <a href=""><img src="img/Actividades1.png" alt="Icono de lugares" class="img3" /></a>
+                    <p>Actividades</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrigth &copy; 2020 by Team Awesome</p>
+        </footer>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
