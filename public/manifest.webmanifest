@@ -1,7 +1,7 @@
 {
     "name": "descubre-nicaragua",
     "short_name": "descubre-nicaragua",
-    "start_url": "index.html",
+    "start_url": ".",
     "display": "standalone",
     "theme_color": "#000",
     "background_color": "#fff",
