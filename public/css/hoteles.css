@@ -15,7 +15,7 @@
     width: 1262px;
     height: 640px;
     border: 0px solid black;
-    background-image: url(../public/img/portada\ hotel.jpg);
+    background-image: url(../img/portada\ hotel.jpg);
     background-size: cover;
 }
 
@@ -427,7 +427,7 @@ footer p {
         margin-top: -12px;
         width: 100%;
         background-size: auto;
-        background-image: url(../public/img/portada\ hotel.jpg);
+        background-image: url(../img/portada\ hotel.jpg);
         background-repeat: no-repeat;
         height: 358px;
     }
@@ -570,7 +570,7 @@ footer p {
         margin-top: -12px;
         width: 100%;
         background-size: auto;
-        background-image: url(../public/img/portada\ hotel.jpg);
+        background-image: url(../img/portada\ hotel.jpg);
         background-repeat: no-repeat;
         height: 358px;
     }
@@ -713,7 +713,7 @@ footer p {
         margin-top: -12px;
         width: 100%;
         background-size: auto;
-        background-image: url(../public/img/portada\ hotel.jpg);
+        background-image: url(../img/portada\ hotel.jpg);
         background-repeat: no-repeat;
         height: 358px;
     }
@@ -856,7 +856,7 @@ footer p {
         margin-top: -12px;
         width: 100%;
         background-size: auto;
-        background-image: url(../public/img/portada\ hotel.jpg);
+        background-image: url(../img/portada\ hotel.jpg);
         background-repeat: no-repeat;
         height: 358px;
     }

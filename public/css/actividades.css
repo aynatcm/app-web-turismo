@@ -14,8 +14,7 @@
     margin-top: -12px;
     width: 1262px;
     height: 640px;
-    border: 0px solid black;
-    background-image: url(../public/img/portada-fritanga.jpg);
+    background-image: url(../img/prueba\ portada\ aventura1.jpg);
     background-size: cover;
 }
 
@@ -26,7 +25,6 @@
 .contenedor1 nav {
     width: 720px;
     height: 30px;
-    border: 0px solid black;
     padding-top: 30px;
     margin-left: 462px;
 }
@@ -34,7 +32,6 @@
 .contenedor1 li {
     width: 150px;
     height: 30px;
-    border: 0px solid black;
     float: left;
     font-size: 17px;
     text-align: center;
@@ -62,13 +59,11 @@
     width: 60px;
     height: 280px;
     margin-left: 1202px;
-    border: 0px solid black;
 }
 
 .redes img {
     width: 60px;
     height: 60px;
-    border: 0px solid black;
     margin-top: 20px;
     transition: 1s;
     -moz-transition: 1s;
@@ -104,260 +99,98 @@
     font-size: 50px;
 }
 
-#Departamentos {
-    width: 100%;
-    height: 9700px;
+.ContenedorAventuras {
+    width: 1261px;
+    height: auto;
 }
 
-#Departamentos h3 {
-    width: 100%;
-    margin-left: 32px;
-}
-
-.tarjetas {
-    margin-bottom: 25px;
-}
-
-.texto-hotel h2 {
-    width: 100%;
-    height: 70px;
+.Actividades {
     text-align: center;
-    color: rgb(0, 174, 255);
-    margin-top: 15px;
-    font-size: 38px;
-}
-
-.hoteles ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 26px;
-}
-
-.texto-hotel {
     width: 100%;
-    height: 200px;
-}
-
-.texto-hotel li {
-    width: 135px;
-    height: 50px;
-    text-align: center;
-    font-size: 20px;
-    list-style: none;
-    transition: 500ms ease-in-out;
-}
-
-.texto-hotel li:hover {
-    transform: scale(1.05);
-}
-
-.texto-hotel a {
-    text-decoration: none;
-    color: black;
-}
-
-.texto-hotel a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-.tarjetas img {
-    border-radius: 25px;
-}
-
-.tarjetas h3 {
-    width: 220px;
-    height: 50px;
-    font-size: 35px;
-    margin-left: 10px;
-    color: rgb(0, 174, 255);
-    border: 1px solid black;
-}
-
-
-/* /carousel/ */
-
-.texto-hotel1,
-.texto-completo {
-    margin: 0;
-    padding: 0;
-}
-
-.texto-completo {
-    text-decoration: none;
-}
-
-.Carousel {
-    width: 100%;
-    height: 400px;
-    margin: 0;
-    border: 0px solid black;
-}
-
-.Carousel h2 {
-    width: 100%;
-    text-transform: uppercase;
-    height: 60px;
-    border: 0px solid black;
-    text-align: center;
-    font-size: 39px;
-}
-
-
-/* images */
-
-.slick-list {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    height: 304px;
-    padding: 10px 0px;
-    margin: 0px auto;
-    max-width: 90vw;
-    overflow: hidden;
-}
-
-.slick-track {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    transition: .5s ease-in-out;
-}
-
-.slick {
-    position: relative;
-    width: 288px;
-    border: 0px solid black;
-    padding: 0 18px;
-    float: left;
-    box-sizing: border-box;
-    display: flex;
-    height: 100%;
-}
-
-.slick h5 {
-    position: absolute;
-    z-index: 1;
-    font-size: 22px;
-    line-height: 23px;
-    color: #fff;
-    padding: 15px;
-}
-
-.slick h5 small {
-    font-size: 15px;
-    display: block;
-}
-
-.slick a img {
-    object-fit: cover;
-    height: 300px;
-    width: 100%;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
-    transition: .3s ease-in-out;
-}
-
-.slick a img:hover {
-    opacity: .85;
-}
-
-
-/* buttons */
-
-.slick-arrow {
-    border-radius: 30px;
-    background-color: #fff;
-    position: absolute;
-    z-index: 4;
-    width: 48px;
-    height: 48px;
-    text-align: center;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15);
-    border: 0;
-    cursor: pointer;
-}
-
-.slick-arrow:focus {
-    outline: 0;
-}
-
-.slick-arrow svg {
-    width: 12px;
-    height: 100%;
-    color: rgba(0, 0, 0, .7);
-}
-
-.slick-prev {
-    left: 0px;
-}
-
-.slick-next {
-    right: 0px;
-}
-
-span {
-    margin-top: -20px;
-    font-size: 80px;
-    color: black;
-}
-
-.owl-nav {
-    text-align: center;
-}
-
-.subir {
-    width: 60px;
-    height: 60px;
-}
-
-.subir img {
-    width: 100%;
-    height: 100%;
-}
-
-.owl-carousel h2 {
-    width: 245px;
-    height: 50px;
-    font-size: 29px;
-    margin-top: -200px;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-}
-
-.owl-carousel img {
-    width: 245px;
-    height: 400px;
-}
-
-.owl-carousel {
-    width: 300px;
-    height: 450px;
+    color: #D6B12E;
+    height: 40px;
+    font-size: 50px;
 }
 
 .imagenes {
-    width: 245px;
+    margin-top: 20px;
+    width: 1261px;
+    display: flex;
+    /* height: 360px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagenes figure {
+    position: relative;
+    width: 329px;
     height: 400px;
+    overflow: hidden;
+    margin-left: 50px;
+    cursor: pointer;
+    box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
 }
 
-.imagenes img {
-    width: 100%;
-    height: 100%;
-}
-
-#como {
-    width: 100px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 25px;
-    background-color: #D6B12E;
+figure h2 {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    transition: 10ms ease-in-out;
+    width: 340px;
+    font-size: 60px;
     color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 15px;
-    margin-left: 75px;
+    text-shadow: 1px 1px black;
+    padding-left: 15px;
+}
+
+.imagenes figure img {
+    border-radius: 4px;
+    width: 350px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.imagenes figure .capa {
+    position: absolute;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    transition: all 50ms ease-out;
+    visibility: hidden;
+    text-align: center;
+    background-color: rgba(92, 92, 92, 0.5);
+}
+
+.capa p {
+    margin-left: 10px;
+}
+
+.imagenes figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+    transition: 50ms ease-in-out;
+}
+
+.imagenes figure:hover img {
+    transform: scale(1.01);
+}
+
+.imagenes figure .capa p {
+    color: seashell;
+    font-weight: 400;
+    transition: all 50ms ease-out;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    font-size: 25px;
+    -webkit-text-fill-color: white;
+    width: 310px;
+    height: 400px;
+    text-shadow: 1px 1px black;
+    text-align: center;
 }
 
 .contenedor3 {
@@ -398,7 +231,7 @@ span {
 
 footer {
     margin-top: 20px;
-    width: 1260px;
+    width: 100%;
     height: 70px;
     background-color: #FFEDB6;
 }
@@ -414,8 +247,7 @@ footer p {
     padding-top: 25px;
 }
 
-
-/* Responsiveeeeeeeeeeeeeee */
+/* Responsiveeeeeeeeeee */
 
 @media only screen and (min-width: 375px) and (max-width: 413px) {
     .contenedor-principal {
@@ -425,8 +257,8 @@ footer p {
     .contenedor1 {
         margin-top: -12px;
         width: 100%;
-        height: 521px;
-        background-image: url(../public/img/portada-fritanga.jpg);
+        height: 550px;
+        background-image: url(../img/prueba\ portada\ aventura1.jpg);
         background-size: cover;
     }
     .contenedor1 nav {
@@ -435,11 +267,8 @@ footer p {
         padding-top: 27px;
         margin-left: 0px;
     }
-    .contenedor1 nav ul {
-        display: flex;
-    }
     .contenedor1 li {
-        width: 100%;
+        width: 80px;
         height: 19px;
         font-size: 17px;
         text-align: center;
@@ -454,73 +283,61 @@ footer p {
         margin-top: 32px;
     }
     .contenedor1 h1 {
-        width: 100%;
-        height: 165px;
-        margin-top: -176px;
+        width: 90%;
+        height: 159px;
+        margin-top: -180px;
         color: white;
-        margin-left: 3px;
+        margin-left: 5px;
         letter-spacing: 1px;
         font-size: 50px;
     }
     .contenedor1 h2 {
         width: 90%;
-        height: 103px;
-        margin-top: -25px;
+        height: 110px;
+        margin-top: -24px;
         color: white;
-        letter-spacing: 0.5px;
-        margin-left: 3px;
+        letter-spacing: .5px;
+        margin-left: 5px;
         font-size: 50px;
+        margin-top: -23px;
     }
-    .texto-hotel {
+    .ContenedorAventuras {
         width: 100%;
-        height: 575px;
-    }
-    .texto-hotel h2 {
-        width: 100%;
-        height: 70px;
-        text-align: center;
-        color: rgb(0, 174, 255);
-        margin-top: 15px;
-        font-size: 38px;
-        margin-bottom: 60px;
-    }
-    .hoteles ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    #Departamentos {
-        width: 100%;
-        height: 9630px;
-    }
-    .Carousel {
-        width: 100%;
-        height: 400px;
-        margin: 0;
+        height: auto;
     }
     .imagenes {
-        width: 245px;
-        height: 335px;
-        margin-left: 16%;
-        margin-top: 24px;
-    }
-    .owl-carousel {
-        display: none;
+        margin-top: 130px;
         width: 100%;
-        z-index: 1;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
-    .owl-nav {
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 30px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+    .imagenes figure .capa p {
+        color: seashell;
+        font-weight: 400;
+        transition: all 50ms ease-out;
+        margin-bottom: 120px;
+        margin-top: 30px;
+        font-size: 25px;
+        -webkit-text-fill-color: white;
+        width: 79%;
+        height: 400px;
+        text-shadow: 1px 1px black;
         text-align: center;
-        padding-right: 19px;
-    }
-    span {
-        margin-top: -20px;
-        font-size: 80px;
-        color: black;
-        padding-left: 11px;
     }
     .contenedor3 {
-        margin-top: -131px;
+        margin-top: 1810px;
         width: 100%;
         height: 230px;
     }
@@ -541,8 +358,14 @@ footer p {
         align-items: center;
         flex-direction: column;
     }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
+    }
     footer {
-        margin-top: 370px;
+        margin-top: 386px;
         width: 100%;
         height: 70px;
         background-color: #ffedb6;
@@ -550,7 +373,7 @@ footer p {
 }
 
 
-/* Responsiveeeeeeeeeeeeeee */
+/* Responsiveeeeeeeeeeeeeeeee */
 
 @media only screen and (min-width: 414px) and (max-width: 453px) {
     .contenedor-principal {
@@ -560,10 +383,9 @@ footer p {
     .contenedor1 {
         margin-top: -12px;
         width: 100%;
-        height: 521px;
-        background-image: url(../public/img/portada-fritanga.jpg);
+        height: 550px;
+        background-image: url(../img/prueba\ portada\ aventura1.jpg);
         background-size: cover;
-        
     }
     .contenedor1 nav {
         width: 100%;
@@ -571,11 +393,8 @@ footer p {
         padding-top: 27px;
         margin-left: 0px;
     }
-    .contenedor1 nav ul {
-        display: flex;
-    }
     .contenedor1 li {
-        width: 100%;
+        width: 80px;
         height: 19px;
         font-size: 17px;
         text-align: center;
@@ -590,9 +409,9 @@ footer p {
         margin-top: 32px;
     }
     .contenedor1 h1 {
-        width: 100%;
-        height: 165px;
-        margin-top: -176px;
+        width: 88%;
+        height: auto;
+        margin-top: -180px;
         color: white;
         margin-left: 15px;
         letter-spacing: 1px;
@@ -600,63 +419,37 @@ footer p {
     }
     .contenedor1 h2 {
         width: 90%;
-        height: 103px;
-        margin-top: -25px;
+        height: auto;
         color: white;
-        letter-spacing: 0.5px;
+        letter-spacing: .5px;
         margin-left: 15px;
         font-size: 50px;
+        margin-top: -23px;
     }
-    .texto-hotel {
+    .ContenedorAventuras {
         width: 100%;
-        height: 575px;
-    }
-    .texto-hotel h2 {
-        width: 100%;
-        height: 70px;
-        text-align: center;
-        color: rgb(0, 174, 255);
-        margin-top: 15px;
-        font-size: 38px;
-        margin-bottom: 70px;
-    }
-    .hoteles ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    #Departamentos {
-        width: 100%;
-        height: 9630px;
-    }
-    .Carousel {
-        width: 100%;
-        height: 400px;
-        margin: 0;
+        height: auto;
     }
     .imagenes {
-        width: 245px;
-        height: 335px;
-        margin-left: 20%;
-        margin-top: 24px;
-    }
-    .owl-carousel {
-        display: none;
+        margin-top: 130px;
         width: 100%;
-        z-index: 1;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
-    .owl-nav {
-        text-align: center;
-        padding-right: 19px;
-    }
-    span {
-        margin-top: -20px;
-        font-size: 80px;
-        color: black;
-        padding-left: 11px;
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 43px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
     }
     .contenedor3 {
-        margin-top: -131px;
+        margin-top: 1810px;
         width: 100%;
         height: 230px;
     }
@@ -677,8 +470,14 @@ footer p {
         align-items: center;
         flex-direction: column;
     }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
+    }
     footer {
-        margin-top: 370px;
+        margin-top: 386px;
         width: 100%;
         height: 70px;
         background-color: #ffedb6;
@@ -686,7 +485,7 @@ footer p {
 }
 
 
-/* Responsiveeeeeeeeeeeeeee */
+/* Responsiveeeeeeeeeeeeeeeee */
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
     .contenedor-principal {
@@ -696,8 +495,8 @@ footer p {
     .contenedor1 {
         margin-top: -12px;
         width: 100%;
-        height: 521px;
-        background-image: url(../public/img/portada-fritanga.jpg);
+        height: 550px;
+        background-image: url(../img/prueba\ portada\ aventura1.jpg);
         background-size: cover;
     }
     .contenedor1 nav {
@@ -706,11 +505,8 @@ footer p {
         padding-top: 27px;
         margin-left: 0px;
     }
-    .contenedor1 nav ul {
-        display: flex;
-    }
     .contenedor1 li {
-        width: 100%;
+        width: 80px;
         height: 19px;
         font-size: 17px;
         text-align: center;
@@ -725,73 +521,61 @@ footer p {
         margin-top: 32px;
     }
     .contenedor1 h1 {
-        width: 100%;
-        height: 165px;
-        margin-top: -176px;
+        width: 90%;
+        height: 159px;
+        margin-top: -180px;
         color: white;
-        margin-left: 3px;
+        margin-left: 5px;
         letter-spacing: 1px;
         font-size: 50px;
     }
     .contenedor1 h2 {
         width: 90%;
-        height: 103px;
-        margin-top: -25px;
+        height: 110px;
+        margin-top: -24px;
         color: white;
-        letter-spacing: 0.5px;
-        margin-left: 3px;
+        letter-spacing: .5px;
+        margin-left: 5px;
         font-size: 50px;
+        margin-top: -23px;
     }
-    .texto-hotel {
+    .ContenedorAventuras {
         width: 100%;
-        height: 575px;
-    }
-    .texto-hotel h2 {
-        width: 100%;
-        height: 70px;
-        text-align: center;
-        color: rgb(0, 174, 255);
-        margin-top: 15px;
-        font-size: 38px;
-        margin-bottom: 60px;
-    }
-    .hoteles ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    #Departamentos {
-        width: 100%;
-        height: 9630px;
-    }
-    .Carousel {
-        width: 100%;
-        height: 400px;
-        margin: 0;
+        height: auto;
     }
     .imagenes {
-        width: 245px;
-        height: 335px;
-        margin-left: 18%;
-        margin-top: 24px;
-    }
-    .owl-carousel {
-        display: none;
+        margin-top: 130px;
         width: 100%;
-        z-index: 1;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
-    .owl-nav {
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 30px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+    .imagenes figure .capa p {
+        color: seashell;
+        font-weight: 400;
+        transition: all 50ms ease-out;
+        margin-bottom: 120px;
+        margin-top: 30px;
+        font-size: 25px;
+        -webkit-text-fill-color: white;
+        width: 79%;
+        height: 400px;
+        text-shadow: 1px 1px black;
         text-align: center;
-        padding-right: 19px;
-    }
-    span {
-        margin-top: -20px;
-        font-size: 80px;
-        color: black;
-        padding-left: 11px;
     }
     .contenedor3 {
-        margin-top: -131px;
+        margin-top: 1810px;
         width: 100%;
         height: 230px;
     }
@@ -811,6 +595,12 @@ footer p {
         width: 100%;
         align-items: center;
         flex-direction: column;
+    }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
     }
     footer {
         margin-top: 386px;
@@ -818,114 +608,113 @@ footer p {
         height: 70px;
         background-color: #ffedb6;
     }
-}  
+}
 
-/* Responsiveeeeeeeeee */
 
-@media only screen and (min-width: 285px) and (max-width: 359px){
+/* Responsiveeeeeeeeeeeeeeee */
+
+@media only screen and (min-width: 285px) and (max-width: 359px) {
     .contenedor-principal {
         width: 100%;
         height: auto;
     }
     .contenedor1 {
-        margin-top: -12px;
         width: 100%;
-        height: auto;
-        background-image: url(../public/img/portada-fritanga.jpg);
+        height: 550px;
+        background-image: url(../img/prueba\ portada\ aventura1.jpg);
         background-size: cover;
     }
     .contenedor1 nav {
         width: 100%;
         height: 30px;
-        padding-top: 27px;
-        margin-left: 0px;
-    }
-    .contenedor1 nav ul {
-        display: flex;
+        padding-top: 23px;
+        margin-left: -14px;
     }
     .contenedor1 li {
-        width: 100%;
-        height: 19px;
+        width: 65px;
+        height: 17px;
         font-size: 17px;
         text-align: center;
-        margin-left: 0px;
+        margin-left: 6px;
         list-style: none;
+        list-style-type: none;
         transition: 0.3s;
     }
     .redes {
         width: 60px;
-        height: 280px;
+        height: 160px;
         margin-left: 82%;
-        margin-top: 32px;
+        margin-top: 45px;
     }
     .contenedor1 h1 {
-        width: 82%;
+        width: 90%;
+        margin-top: -100px;
         height: auto;
-        margin-top: -176px;
-        color: white;
-        margin-left: 3px;
-        letter-spacing: 1px;
-        font-size: 50px;
+        margin-left: 10px;
+        font-size: 40px;
     }
     .contenedor1 h2 {
-        width: 90%;
+        width: 79%;
         height: auto;
-        margin-top: -25px;
         color: white;
-        letter-spacing: 0.5px;
-        margin-left: 3px;
-        font-size: 50px;
+        text-shadow: 1px 1px hsl(0, 0%, 0%, .5);
+        margin-left: 10px;
+        margin-top: -25px;
+        font-size: 40px;
     }
-    .texto-hotel {
+    .ContenedorAventuras {
         width: 100%;
         height: auto;
     }
-    .texto-hotel h2 {
+    .Actividades {
         width: 100%;
         height: auto;
-        text-align: center;
-        color: rgb(0, 174, 255);
-        margin-top: 15px;
-        font-size: 38px;
-        margin-bottom: 60px;
-    }
-    .hoteles ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    #Departamentos {
-        width: 100%;
-        height: 9630px;
-    }
-    .Carousel {
-        width: 100%;
-        height: 400px;
-        margin: 0;
+        font-size: 25px;
     }
     .imagenes {
-        width: 245px;
-        height: 335px;
-        margin-left: 10.5%;
-        margin-top: 24px;
-    }
-    .owl-carousel {
-        display: none;
+        margin-top: 35px;
         width: 100%;
-        z-index: 1;
+        display: flex;
+        height: 360px;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
-    .owl-nav {
+    .imagenes figure {
+        position: relative;
+        width: 330px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: 30px;
+        cursor: pointer;
+        box-shadow: 3px 10px 14px -3px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+    figure h2 {
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        transition: 10ms ease-in-out;
+        width: 100%;
+        font-size: 57px;
+        color: white;
+        text-shadow: 1px 1px black;
+        padding-left: 0px;
+    }
+    .imagenes figure .capa p {
+        color: seashell;
+        font-weight: 400;
+        transition: all 50ms ease-out;
+        margin-bottom: 120px;
+        margin-top: 30px;
+        font-size: 21px;
+        -webkit-text-fill-color: white;
+        width: 56%;
+        height: 400px;
+        text-shadow: 1px 1px black;
         text-align: center;
-        padding-right: 19px;
-    }
-    span {
-        margin-top: -20px;
-        font-size: 80px;
-        color: black;
-        padding-left: 11px;
     }
     .contenedor3 {
-        margin-top: -131px;
+        margin-top: 1798px;
         width: 100%;
         height: 230px;
     }
@@ -945,6 +734,12 @@ footer p {
         width: 100%;
         align-items: center;
         flex-direction: column;
+    }
+    .cocina {
+        margin-top: 20px;
+    }
+    .correr {
+        margin-top: 30px;
     }
     footer {
         margin-top: 386px;
