@@ -270,7 +270,7 @@ footer p {
         width: 100%;
         height: 690px;
         border: 0px solid black;
-        background-image: url(../img/prueba.jpg);
+        background-image: url(../public/img/portada-nicaragua1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -319,7 +319,7 @@ footer p {
         text-decoration: underline;
         height: auto;
         font-size: 43px;
-        color: #00BCFF;
+        color: white;
         margin-left: 32px;
     }
     .historia p {
@@ -394,7 +394,7 @@ footer p {
         width: 100%;
         height: 690px;
         border: 0px solid black;
-        background-image: url(../img/prueba.jpg);
+        background-image: url(../public/img/portada-nicaragua1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -443,7 +443,7 @@ footer p {
         text-decoration: underline;
         height: auto;
         font-size: 43px;
-        color: #00BCFF;
+        color: white;
         margin-left: 50px;
     }
     .historia p {
@@ -518,7 +518,7 @@ footer p {
         width: 100%;
         height: 690px;
         border: 0px solid black;
-        background-image: url(../img/prueba.jpg);
+        background-image: url(../public/img/portada-nicaragua1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -567,7 +567,7 @@ footer p {
         text-decoration: underline;
         height: auto;
         font-size: 43px;
-        color: #00BCFF;
+        color: white;
         margin-left: 32px;
     }
     .historia p {
@@ -633,187 +633,7 @@ footer p {
 /* GUSTAVOOOOOOOOOOOOOOOOOO HP */
 
 @media only screen and (min-width: 285px) and (max-width: 359px) {
-    /* .ContenedorPrincipal {
-        width: 100%;
-        height: 7490px;
-    }
-    .contenedor1 {
-        width: 100%;
-        height: 610px;
-        background-image: url(../img/prueba.jpg);
-    }
-    .contenedor1 nav {
-        width: 150%;
-        height: 50px;
-        margin-left: -100px;
-        margin-top: -20px;
-    }
-    .contenedor1 li {
-        width: 70px;
-        height: 40px;
-        font-size: 13px;
-        text-align: center;
-        margin-left: 1.3px;
-        margin-top: 20px;
-    }
-    .contenedor1 li a:hover {
-        color: white;
-    }
-    .redes {
-        width: 60px;
-        height: 160px;
-        margin-left: 225px;
-        margin-top: 35px;
-    }
-    .redes img {
-        width: 50px;
-        height: 50px;
-    }
-    .historia {
-        width: 100%;
-        height: 500px;
-        margin-left: 0px;
-        margin-top: -123px;
-    }
-    .historia h1 {
-        width: 70%;
-        text-decoration: underline;
-        height: auto;
-        border: 0px solid black;
-        font-size: 35px;
-        color: white;
-        margin-left: 10px;
-    }
-    .historia p {
-        font-family: Arial, Helvetica, sans-serif;
-        width: 80%;
-        height: 483px;
-        text-align: center;
-        margin-left: 0px;
-        font-size: 14px;
-        color: white;
-        text-shadow: 1px 1px black;
-    }
-    .contenedor2 {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-top: 25px;
-        height: auto;
-        width: 100%;
-    }
-    .contenedor2 h2 {
-        width: 100%;
-        text-decoration: underline;
-        height: 60px;
-        text-align: center;
-        font-size: 32px;
-        color: #00BCFF;
-        margin-top: 15px;
-        margin-bottom: 38px;
-    }
-    .tarjetas {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .tarjetas img {
-        width: 275px;
-        height: 310px;
-        margin-left: 3px;
-        border-radius: 8px;
-        box-shadow: -7px 4px 13px -4px rgba(0, 0, 0, 0.75);
-        margin-bottom: 10px;
-    }
-    .tarjetas p {
-        width: 100%;
-        font-size: 22px;
-        text-align: center;
-    }
-    .leerMas {
-        width: 135px;
-        height: 45px;
-        margin-left: 75px;
-    }
-    .contenedor3 {
-        border: 1px solid black;
-        margin-top: 10px;
-        width: 100%;
-        height: 230px;
-    }
-    .contenedor3 h2 {
-        width: 100%;
-        height: 100px;
-        text-align: center;
-        color: #00bcff;
-        font-size: 36px;
-        text-shadow: 0px 2px 1px #ffd447;
-    }
-    .Descubre1 img {
-        padding-top: 20px;
-        width: 60px;
-        height: 90px;
-        margin-left: 20px;
-    }
-    .Descubre1 p {
-        width: 80px;
-        height: 40px;
-        font-size: 15px;
-        margin-left: 15px;
-        text-align: center;
-        color: black;
-    }
-    footer {
-        margin-top: 0px;
-        width: 100%;
-        height: 70px;
-    }
-    footer p {
-        width: 100%;
-        height: auto;
-        font-size: 14px;
-    }
-    .modal-title {
-        width: 285px;
-        height: 50px;
-        text-align: center;
-        font-size: 25px;
-        color: #00BCFF;
-        margin-left: 0px;
-    }
-    .modal-content {
-        width: 285px;
-        height: auto;
-        margin-left: -10px;
-    }
-    .texto-modal h4 {
-        width: 100%;
-        text-align: center;
-        border: 0px solid black;
-        color: #D6B12E;
-        font-size: 25px;
-        text-decoration: underline;
-    }
-    .texto-modal p {
-        width: 100%;
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        -webkit-text-fill-color: black;
-        font-size: 14px;
-    }
-    .btn-close {
-        cursor: pointer;
-        width: 70px;
-        height: 40px;
-        border: 0;
-        border-radius: 10px;
-        transition: 200ms ease-in-out;
-    }
-    .carousel-item img {
-        width: 255px;
-        height: 200px;
-        margin-left: 0px;
-    } */
+    
     .ContenedorPrincipal {
         width: 100%;
         height: auto;
@@ -823,7 +643,7 @@ footer p {
         width: 100%;
         height: 841px;
         border: 0px solid black;
-        background-image: url(../img/prueba.jpg);
+        background-image: url(../public/img/portada-nicaragua1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -872,7 +692,7 @@ footer p {
         text-decoration: underline;
         height: auto;
         font-size: 43px;
-        color: #00BCFF;
+        color: white;
         margin-left: 3px;
     }
     .historia p {

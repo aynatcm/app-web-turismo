@@ -15,7 +15,7 @@
     width: 1262px;
     height: 640px;
     border: 0px solid black;
-    background-image: url(../img/portada\ hotel.jpg);
+    background-image: url(../public/img/portada\ hotel.jpg);
     background-size: cover;
 }
 
@@ -418,21 +418,21 @@ footer p {
 
 /* Responsiveeeeeeeeee */
 
-@media only screen and (min-width: 375px) and (max-width:375px) {
+@media only screen and (min-width: 375px) and (max-width: 413px) {
     .contenedor-principal {
-        width: 375px;
+        width: 100%;
         height: auto;
     }
     .contenedor1 {
         margin-top: -12px;
-        width: 375px;
+        width: 100%;
         background-size: auto;
-        background-image: url(../img/fondo\ 1.jpg);
+        background-image: url(../public/img/portada\ hotel.jpg);
         background-repeat: no-repeat;
         height: 358px;
     }
     .contenedor1 nav {
-        width: 375px;
+        width: 100%;
         margin-left: 0px;
         height: 30px;
     }
@@ -440,7 +440,7 @@ footer p {
         display: flex;
     }
     .contenedor1 li {
-        width: 375px;
+        width: 100%;
         height: 30px;
         float: left;
         font-size: 17px;
@@ -453,11 +453,11 @@ footer p {
     .redes {
         width: 56px;
         height: 184px;
-        margin-left: 320px;
+        margin-left: 82%;
         padding-top: 25px;
     }
     .contenedor1 h1 {
-        width: 375px;
+        width: 80%;
         height: 105px;
         margin-top: -90px;
         color: white;
@@ -466,7 +466,7 @@ footer p {
         font-size: 37px;
     }
     .contenedor1 h2 {
-        width: 375px;
+        width: 80%;
         height: 105px;
         margin-top: -44px;
         color: white;
@@ -475,8 +475,8 @@ footer p {
         font-size: 37px;
     }
     .texto-hotel {
-        width: 375px;
-        height: 535px;
+        width: 100%;
+        height: auto;
     }
     .texto-hotel h2 {
         width: 100%;
@@ -501,7 +501,7 @@ footer p {
     }
     #Leon,
     .titular {
-        width: 375px;
+        width: 100%;
         text-transform: uppercase;
         height: 60px;
         text-align: center;
@@ -510,12 +510,12 @@ footer p {
     .imagenes {
         width: 245px;
         height: 335px;
-        margin-left: 55px;
+        margin-left: 15%;
         margin-top: 24px;
     }
     .owl-carousel {
         display: none;
-        width: 375px;
+        width: 100%;
         z-index: 1;
     }
     .owl-nav {
@@ -530,11 +530,11 @@ footer p {
     }
     .contenedor3 {
         margin-top: -131px;
-        width: 375px;
+        width: 100%;
         height: 230px;
     }
     .contenedor3 h2 {
-        width: 375px;
+        width: 100%;
         height: 76px;
         text-align: center;
         color: #00bcff;
@@ -546,13 +546,13 @@ footer p {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: -8px;
-        width: 375px;
+        width: 100%;
         align-items: center;
         flex-direction: column;
     }
     footer {
         margin-top: 386px;
-        width: 375px;
+        width: 100%;
         height: 70px;
         background-color: #ffedb6;
     }
@@ -561,21 +561,21 @@ footer p {
 
 /* Responsiveeeeeeeeeeeeeeeeeee */
 
-@media only screen and (min-width: 414px) and (max-width: 414px) {
+@media only screen and (min-width: 414px) and (max-width: 453px) {
     .contenedor-principal {
-        width: 414px;
+        width: 100%;
         height: auto;
     }
     .contenedor1 {
         margin-top: -12px;
-        width: 414px;
+        width: 100%;
         background-size: auto;
-        background-image: url(../img/fondo\ 1.jpg);
+        background-image: url(../public/img/portada\ hotel.jpg);
         background-repeat: no-repeat;
         height: 358px;
     }
     .contenedor1 nav {
-        width: 414px;
+        width: 100%;
         margin-left: 0px;
         height: 30px;
     }
@@ -583,7 +583,7 @@ footer p {
         display: flex;
     }
     .contenedor1 li {
-        width: 414px;
+        width: 100%;
         height: 30px;
         float: left;
         font-size: 17px;
@@ -596,11 +596,11 @@ footer p {
     .redes {
         width: 56px;
         height: 184px;
-        margin-left: 345px;
+        margin-left: 82%;
         padding-top: 25px;
     }
     .contenedor1 h1 {
-        width: 375px;
+        width: 80%;
         height: 105px;
         margin-top: -90px;
         color: white;
@@ -609,7 +609,7 @@ footer p {
         font-size: 37px;
     }
     .contenedor1 h2 {
-        width: 375px;
+        width: 80%;
         height: 105px;
         margin-top: -44px;
         color: white;
@@ -618,8 +618,8 @@ footer p {
         font-size: 37px;
     }
     .texto-hotel {
-        width: 414px;
-        height: 535px;
+        width: 100%;
+        height: auto;
     }
     .texto-hotel h2 {
         width: 100%;
@@ -644,7 +644,7 @@ footer p {
     }
     #Leon,
     .titular {
-        width: 414px;
+        width: 100%;
         text-transform: uppercase;
         height: 60px;
         text-align: center;
@@ -653,7 +653,7 @@ footer p {
     .imagenes {
         width: 245px;
         height: 335px;
-        margin-left: 78px;
+        margin-left: 18%;
         margin-top: 24px;
     }
     .owl-carousel {
@@ -673,11 +673,11 @@ footer p {
     }
     .contenedor3 {
         margin-top: -131px;
-        width: 414px;
+        width: 100%;
         height: 230px;
     }
     .contenedor3 h2 {
-        width: 414px;
+        width: 100%;
         height: 76px;
         text-align: center;
         color: #00bcff;
@@ -689,13 +689,13 @@ footer p {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: -8px;
-        width: 414px;
+        width: 100%;
         align-items: center;
         flex-direction: column;
     }
     footer {
         margin-top: 386px;
-        width: 414px;
+        width: 100%;
         height: 70px;
         background-color: #ffedb6;
     }
@@ -704,21 +704,21 @@ footer p {
 
 /* Responsiveeeeeeeeee */
 
-@media only screen and (min-width: 360px) and (max-width:360px) {
+@media only screen and (min-width: 360px) and (max-width:374px) {
     .contenedor-principal {
-        width: 360px;
+        width: 100%;
         height: auto;
     }
     .contenedor1 {
         margin-top: -12px;
-        width: 360px;
+        width: 100%;
         background-size: auto;
-        background-image: url(../img/fondo\ 1.jpg);
+        background-image: url(../public/img/portada\ hotel.jpg);
         background-repeat: no-repeat;
         height: 358px;
     }
     .contenedor1 nav {
-        width: 360px;
+        width: 100%;
         margin-left: 0px;
         height: 30px;
     }
@@ -726,7 +726,7 @@ footer p {
         display: flex;
     }
     .contenedor1 li {
-        width: 360px;
+        width: 100%;
         height: 30px;
         float: left;
         font-size: 17px;
@@ -739,11 +739,11 @@ footer p {
     .redes {
         width: 56px;
         height: 184px;
-        margin-left: 296px;
+        margin-left: 82%;
         padding-top: 25px;
     }
     .contenedor1 h1 {
-        width: 360px;
+        width: 80%;
         height: 105px;
         margin-top: -90px;
         color: white;
@@ -752,7 +752,7 @@ footer p {
         font-size: 37px;
     }
     .contenedor1 h2 {
-        width: 360px;
+        width: 80%;
         height: 105px;
         margin-top: -44px;
         color: white;
@@ -761,7 +761,7 @@ footer p {
         font-size: 37px;
     }
     .texto-hotel {
-        width: 360px;
+        width: 100%;
         height: auto;
     }
     .texto-hotel h2 {
@@ -787,7 +787,7 @@ footer p {
     }
     #Leon,
     .titular {
-        width: 360px;
+        width: 100%;
         text-transform: uppercase;
         height: 60px;
         text-align: center;
@@ -796,12 +796,12 @@ footer p {
     .imagenes {
         width: 245px;
         height: 335px;
-        margin-left: 55px;
+        margin-left: 17%;
         margin-top: 24px;
     }
     .owl-carousel {
         display: none;
-        width: 375px;
+        width: 100%;
         z-index: 1;
     }
     .owl-nav {
@@ -816,11 +816,11 @@ footer p {
     }
     .contenedor3 {
         margin-top: -131px;
-        width: 360px;
+        width: 100%;
         height: 230px;
     }
     .contenedor3 h2 {
-        width: 360px;
+        width: 100%;
         height: 76px;
         text-align: center;
         color: #00bcff;
@@ -832,13 +832,156 @@ footer p {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: -8px;
-        width: 360px;
+        width: 100%;
         align-items: center;
         flex-direction: column;
     }
     footer {
         margin-top: 386px;
-        width: 360px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}
+
+/* Responsiveeeeeeeeee */
+
+@media only screen and (min-width: 285px) and (max-width: 359px){
+
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        background-size: auto;
+        background-image: url(../public/img/portada\ hotel.jpg);
+        background-repeat: no-repeat;
+        height: 358px;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        margin-left: 0px;
+        height: 30px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 100%;
+        height: 30px;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 0px;
+        list-style: none;
+        list-style-type: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 56px;
+        height: 184px;
+        margin-left: 82%;
+        padding-top: 25px;
+    }
+    .contenedor1 h1 {
+        width: 80%;
+        height: auto;
+        margin-top: -90px;
+        color: white;
+        margin-left: 5px;
+        letter-spacing: 1px;
+        font-size: 37px;
+    }
+    .contenedor1 h2 {
+        width: 80%;
+        height: auto;
+        margin-top: -27px;
+        color: white;
+        letter-spacing: 0.5px;
+        margin-left: 5px;
+        font-size: 37px;
+    }
+    .texto-hotel {
+        width: 100%;
+        height: auto;
+    }
+    .texto-hotel h2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: rgb(0, 174, 255);
+        margin-top: 15px;
+        font-size: 32px;
+    }
+    .hoteles ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .texto-hotel li {
+        width: 118px;
+        height: 50px;
+        text-align: center;
+        font-size: 18px;
+        list-style: none;
+        transition: 500ms ease-in-out;
+    }
+    #Leon,
+    .titular {
+        width: 100%;
+        text-transform: uppercase;
+        height: 60px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .imagenes {
+        width: 245px;
+        height: 335px;
+        margin-left: 8%;
+        margin-top: 24px;
+    }
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        z-index: 1;
+    }
+    .owl-nav {
+        text-align: center;
+        padding-right: 19px;
+    }
+    span {
+        margin-top: -20px;
+        font-size: 80px;
+        color: black;
+        padding-left: 11px;
+    }
+    .contenedor3 {
+        margin-top: -131px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
         height: 70px;
         background-color: #ffedb6;
     }

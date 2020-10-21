@@ -15,7 +15,7 @@
     width: 1262px;
     height: 640px;
     border: 0px solid black;
-    background-image: url(../img/portada-fritanga.jpg);
+    background-image: url(../public/img/portada-fritanga.jpg);
     background-size: cover;
 }
 
@@ -417,20 +417,20 @@ footer p {
 
 /* Responsiveeeeeeeeeeeeeee */
 
-@media only screen and (min-width: 375px) and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 413px) {
     .contenedor-principal {
-        width: 375px;
-        height: 812px;
+        width: 100%;
+        height: auto;
     }
     .contenedor1 {
         margin-top: -12px;
-        width: 375px;
+        width: 100%;
         height: 521px;
-        background-image: url(../img/portada-fritanga.jpg);
+        background-image: url(../public/img/portada-fritanga.jpg);
         background-size: cover;
     }
     .contenedor1 nav {
-        width: 375px;
+        width: 100%;
         height: 30px;
         padding-top: 27px;
         margin-left: 0px;
@@ -439,7 +439,7 @@ footer p {
         display: flex;
     }
     .contenedor1 li {
-        width: 80px;
+        width: 100%;
         height: 19px;
         font-size: 17px;
         text-align: center;
@@ -450,11 +450,11 @@ footer p {
     .redes {
         width: 60px;
         height: 280px;
-        margin-left: 300px;
+        margin-left: 82%;
         margin-top: 32px;
     }
     .contenedor1 h1 {
-        width: 375px;
+        width: 100%;
         height: 165px;
         margin-top: -176px;
         color: white;
@@ -463,7 +463,7 @@ footer p {
         font-size: 50px;
     }
     .contenedor1 h2 {
-        width: 375px;
+        width: 90%;
         height: 103px;
         margin-top: -25px;
         color: white;
@@ -472,7 +472,7 @@ footer p {
         font-size: 50px;
     }
     .texto-hotel {
-        width: 375px;
+        width: 100%;
         height: 575px;
     }
     .texto-hotel h2 {
@@ -490,7 +490,7 @@ footer p {
         justify-content: center;
     }
     #Departamentos {
-        width: 375px;
+        width: 100%;
         height: 9630px;
     }
     .Carousel {
@@ -501,12 +501,12 @@ footer p {
     .imagenes {
         width: 245px;
         height: 335px;
-        margin-left: 55px;
+        margin-left: 16%;
         margin-top: 24px;
     }
     .owl-carousel {
         display: none;
-        width: 375px;
+        width: 100%;
         z-index: 1;
     }
     .owl-nav {
@@ -521,11 +521,11 @@ footer p {
     }
     .contenedor3 {
         margin-top: -131px;
-        width: 375px;
+        width: 100%;
         height: 230px;
     }
     .contenedor3 h2 {
-        width: 375px;
+        width: 100%;
         height: 76px;
         text-align: center;
         color: #00bcff;
@@ -537,13 +537,13 @@ footer p {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: -8px;
-        width: 375px;
+        width: 100%;
         align-items: center;
         flex-direction: column;
     }
     footer {
-        margin-top: 386px;
-        width: 375px;
+        margin-top: 370px;
+        width: 100%;
         height: 70px;
         background-color: #ffedb6;
     }
@@ -552,20 +552,21 @@ footer p {
 
 /* Responsiveeeeeeeeeeeeeee */
 
-@media only screen and (min-width: 414px) and (max-width: 414px) {
+@media only screen and (min-width: 414px) and (max-width: 453px) {
     .contenedor-principal {
-        width: 414px;
+        width: 100%;
         height: auto;
     }
     .contenedor1 {
         margin-top: -12px;
-        width: 414px;
+        width: 100%;
         height: 521px;
-        background-image: url(../img/portada-fritanga.jpg);
+        background-image: url(../public/img/portada-fritanga.jpg);
         background-size: cover;
+        
     }
     .contenedor1 nav {
-        width: 414px;
+        width: 100%;
         height: 30px;
         padding-top: 27px;
         margin-left: 0px;
@@ -574,7 +575,7 @@ footer p {
         display: flex;
     }
     .contenedor1 li {
-        width: 80px;
+        width: 100%;
         height: 19px;
         font-size: 17px;
         text-align: center;
@@ -585,11 +586,11 @@ footer p {
     .redes {
         width: 60px;
         height: 280px;
-        margin-left: 345px;
+        margin-left: 82%;
         margin-top: 32px;
     }
     .contenedor1 h1 {
-        width: 414px;
+        width: 100%;
         height: 165px;
         margin-top: -176px;
         color: white;
@@ -598,7 +599,7 @@ footer p {
         font-size: 50px;
     }
     .contenedor1 h2 {
-        width: 414px;
+        width: 90%;
         height: 103px;
         margin-top: -25px;
         color: white;
@@ -607,7 +608,7 @@ footer p {
         font-size: 50px;
     }
     .texto-hotel {
-        width: 414px;
+        width: 100%;
         height: 575px;
     }
     .texto-hotel h2 {
@@ -625,7 +626,7 @@ footer p {
         justify-content: center;
     }
     #Departamentos {
-        width: 414px;
+        width: 100%;
         height: 9630px;
     }
     .Carousel {
@@ -636,12 +637,12 @@ footer p {
     .imagenes {
         width: 245px;
         height: 335px;
-        margin-left: 78px;
+        margin-left: 20%;
         margin-top: 24px;
     }
     .owl-carousel {
         display: none;
-        width: 414px;
+        width: 100%;
         z-index: 1;
     }
     .owl-nav {
@@ -656,11 +657,11 @@ footer p {
     }
     .contenedor3 {
         margin-top: -131px;
-        width: 414px;
+        width: 100%;
         height: 230px;
     }
     .contenedor3 h2 {
-        width: 414px;
+        width: 100%;
         height: 76px;
         text-align: center;
         color: #00bcff;
@@ -672,13 +673,13 @@ footer p {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: -8px;
-        width: 414px;
+        width: 100%;
         align-items: center;
         flex-direction: column;
     }
     footer {
-        margin-top: 386px;
-        width: 414px;
+        margin-top: 370px;
+        width: 100%;
         height: 70px;
         background-color: #ffedb6;
     }
@@ -687,20 +688,20 @@ footer p {
 
 /* Responsiveeeeeeeeeeeeeee */
 
-@media only screen and (min-width: 360px) and (max-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 374px) {
     .contenedor-principal {
-        width: 360px;
-        height: 812px;
+        width: 100%;
+        height: auto;
     }
     .contenedor1 {
         margin-top: -12px;
-        width: 360px;
+        width: 100%;
         height: 521px;
-        background-image: url(../img/portada-fritanga.jpg);
+        background-image: url(../public/img/portada-fritanga.jpg);
         background-size: cover;
     }
     .contenedor1 nav {
-        width: 360px;
+        width: 100%;
         height: 30px;
         padding-top: 27px;
         margin-left: 0px;
@@ -709,7 +710,7 @@ footer p {
         display: flex;
     }
     .contenedor1 li {
-        width: 80px;
+        width: 100%;
         height: 19px;
         font-size: 17px;
         text-align: center;
@@ -720,11 +721,11 @@ footer p {
     .redes {
         width: 60px;
         height: 280px;
-        margin-left: 296px;
+        margin-left: 82%;
         margin-top: 32px;
     }
     .contenedor1 h1 {
-        width: 360px;
+        width: 100%;
         height: 165px;
         margin-top: -176px;
         color: white;
@@ -733,7 +734,7 @@ footer p {
         font-size: 50px;
     }
     .contenedor1 h2 {
-        width: 360px;
+        width: 90%;
         height: 103px;
         margin-top: -25px;
         color: white;
@@ -742,7 +743,7 @@ footer p {
         font-size: 50px;
     }
     .texto-hotel {
-        width: 360px;
+        width: 100%;
         height: 575px;
     }
     .texto-hotel h2 {
@@ -760,7 +761,7 @@ footer p {
         justify-content: center;
     }
     #Departamentos {
-        width: 360px;
+        width: 100%;
         height: 9630px;
     }
     .Carousel {
@@ -771,12 +772,12 @@ footer p {
     .imagenes {
         width: 245px;
         height: 335px;
-        margin-left: 55px;
+        margin-left: 18%;
         margin-top: 24px;
     }
     .owl-carousel {
         display: none;
-        width: 375px;
+        width: 100%;
         z-index: 1;
     }
     .owl-nav {
@@ -791,11 +792,11 @@ footer p {
     }
     .contenedor3 {
         margin-top: -131px;
-        width: 360px;
+        width: 100%;
         height: 230px;
     }
     .contenedor3 h2 {
-        width: 360px;
+        width: 100%;
         height: 76px;
         text-align: center;
         color: #00bcff;
@@ -807,13 +808,147 @@ footer p {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: -8px;
-        width: 360px;
+        width: 100%;
         align-items: center;
         flex-direction: column;
     }
     footer {
         margin-top: 386px;
-        width: 360px;
+        width: 100%;
+        height: 70px;
+        background-color: #ffedb6;
+    }
+}  
+
+/* Responsiveeeeeeeeee */
+
+@media only screen and (min-width: 285px) and (max-width: 359px){
+    .contenedor-principal {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor1 {
+        margin-top: -12px;
+        width: 100%;
+        height: auto;
+        background-image: url(../public/img/portada-fritanga.jpg);
+        background-size: cover;
+    }
+    .contenedor1 nav {
+        width: 100%;
+        height: 30px;
+        padding-top: 27px;
+        margin-left: 0px;
+    }
+    .contenedor1 nav ul {
+        display: flex;
+    }
+    .contenedor1 li {
+        width: 100%;
+        height: 19px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 0px;
+        list-style: none;
+        transition: 0.3s;
+    }
+    .redes {
+        width: 60px;
+        height: 280px;
+        margin-left: 82%;
+        margin-top: 32px;
+    }
+    .contenedor1 h1 {
+        width: 82%;
+        height: auto;
+        margin-top: -176px;
+        color: white;
+        margin-left: 3px;
+        letter-spacing: 1px;
+        font-size: 50px;
+    }
+    .contenedor1 h2 {
+        width: 90%;
+        height: auto;
+        margin-top: -25px;
+        color: white;
+        letter-spacing: 0.5px;
+        margin-left: 3px;
+        font-size: 50px;
+    }
+    .texto-hotel {
+        width: 100%;
+        height: auto;
+    }
+    .texto-hotel h2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: rgb(0, 174, 255);
+        margin-top: 15px;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+    .hoteles ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #Departamentos {
+        width: 100%;
+        height: 9630px;
+    }
+    .Carousel {
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+    .imagenes {
+        width: 245px;
+        height: 335px;
+        margin-left: 10.5%;
+        margin-top: 24px;
+    }
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        z-index: 1;
+    }
+    .owl-nav {
+        text-align: center;
+        padding-right: 19px;
+    }
+    span {
+        margin-top: -20px;
+        font-size: 80px;
+        color: black;
+        padding-left: 11px;
+    }
+    .contenedor3 {
+        margin-top: -131px;
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor3 h2 {
+        width: 100%;
+        height: 76px;
+        text-align: center;
+        color: #00bcff;
+        font-size: 36px;
+        text-shadow: 0px 2px 1px #ffd447;
+    }
+    .Descubre1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: -8px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 386px;
+        width: 100%;
         height: 70px;
         background-color: #ffedb6;
     }
