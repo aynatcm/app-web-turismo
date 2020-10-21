@@ -16,7 +16,7 @@
     width: 1262px;
     height: 610px;
     border: 0px solid black;
-    background-image: url(../img/fondo\ 1.jpg);
+    background-image: url(../img/fondo1.jpg);
     background-size: cover;
 }
 
@@ -1154,7 +1154,7 @@ footer p {
     .contenedor1 {
         width: 100%;
         height: 494px;
-        background-image: url(../img/fondo\ 1.jpg);
+        background-image: url(../img/fondo1.jpg);
         background-size: cover;
     }
     .contenedor1 nav {
